@@ -22,7 +22,7 @@ sudo npm install -g ttf2woff2
 
 # Path to vagrant folder
 cd
-cd ../../vagrant/
+cd vagrant/
 
 # Install npm dependencies
 sudo npm install

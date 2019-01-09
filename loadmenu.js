@@ -86,7 +86,7 @@ $(function () {
     $.each(data.menu, function (key, value) {
 
         // <li class="d-flex flex-column active">
-        //     <a class="nav-link" href="../widgets/widgets.html">
+        //     <a class="nav-link" href="widgets/widgets.html">
         //         <i class="nav-icon fas fa-cog"></i>
         //         <p>Widgets</p>
         //     </a>
