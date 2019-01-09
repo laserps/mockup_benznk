@@ -86,17 +86,17 @@ $.each(menu,function(i,v){
 	if(v.submenu!==undefined){
 		if(v.link==main_menu){
 			var active = "active";
-			var collapse = "collapse";
+			var collapse = "";
 			var show = 'show';
 			var expanded = true;
 		}else{
 			var active = "";
 			var collapse = "";
-			var show = '';
+			var show = 'show';
 			var expanded = true;
 		}
 		data+='<li class="d-flex flex-column '+active+'">\
-                <a data-toggle="collapse" href="#menu_'+i+'" class="'+collapse+' nav-link" aria-expanded="false">\
+                <a data-toggle="collapse" href="#menu_'+i+'" class="'+collapse+' nav-link" aria-expanded="true">\
                     <i class="nav-icon '+v.icon+'"></i>\
                     <p>\
                         '+v.name+'\
