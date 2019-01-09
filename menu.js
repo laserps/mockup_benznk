@@ -2,15 +2,23 @@
 
 var menu = [
 	
-	{
-		name : 'แดชบอร์ด',
-		link : 'index.html'
-	},
+
 	{
         name: 'รับรถเข้า',
         link: 'receivecar.html',
         sub: null
+    },
+    {
+    	name: 'ข้อตกลงมัดจำรถ used',
+    	link: 'deposit.html',
+    	sub: null
+    },
+    {
+    	name: 'สัญญามัดจำ',
+    	link: 'deposit_contract.html',
+    	sub: null
     }
+
 ];
 var data = "";
 
