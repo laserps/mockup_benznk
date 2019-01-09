@@ -3,7 +3,7 @@
 var menu = [
 	
 	{
-		name: 'การซื้อรถเข้า',
+		name: 'การซื้อรถ',
         link: 'receivecar.html',
 		submenu : [{
 			name: 'รับรถเข้า',
@@ -34,6 +34,31 @@ var menu = [
 			name: 'ฟอร์มสัญญามัดจำ',
     		link: 'form_deposit_contract.html',
     		submenu: null
+		}
+		]
+	},
+	{
+		name: 'การขายรถ',
+		link: 'sale_contract.html',
+		submenu : [{
+			name: 'สัญญามัดจำ',
+			link: 'sale_contract.html',
+			submenu: null
+		},
+		{
+			name: 'ฟอร์มสัญญามัดจำ',
+			link: 'form_sale_contract.html',
+			submenu: null
+		},
+		{
+			name: 'ส่งมอบรถ',
+			link: 'sale_sandcar',
+			submenu: null
+		},
+		{
+			name: 'ฟอร์มส่งมอบรถ',
+			link: 'form_sale_sendcar',
+			submenu: null
 		}
 		]
 	}
