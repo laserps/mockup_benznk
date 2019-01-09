@@ -52,12 +52,12 @@ var menu = [
 		},
 		{
 			name: 'ส่งมอบรถ',
-			link: 'sale_sendcar',
+			link: 'sale_sendcar.html',
 			submenu: null
 		},
 		{
 			name: 'ฟอร์มส่งมอบรถ',
-			link: 'form_sale_sendcar',
+			link: 'form_sale_sendcar.html',
 			submenu: null
 		}
 		]
