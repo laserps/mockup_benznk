@@ -39,13 +39,18 @@ var menu = [
 	},
 	{
 		name: 'สต๊อกรถยนต์',
-		link: 'status.html',
-		submenu: null
-	},
-	{
-		name: 'ปรับสถานะสต๊อกรถยนต์',
-		link: 'edit_status.html',
-		submenu: null
+		link: 'sataus',
+		submenu: [{
+			name: 'สต๊อกรถยนต์',
+			link: 'status.html',
+			sub: null
+		},
+		{
+			name: 'ปรับสถานะสต๊อกรถยนต์',
+			link: 'edit_status.html',
+			sub: null
+		}
+		]
 	},
 	{
 		name: 'การขายรถ',
@@ -71,7 +76,7 @@ var menu = [
 			submenu: null
 		}
 		]
-	}
+	},
 
 ];
 var data = "";
@@ -88,7 +93,7 @@ $.each(menu,function(i,v){
 			var active = "";
 			var collapse = "";
 			var show = '';
-			var expanded = false;
+			var expanded = true;
 		}
 		data+='<li class="d-flex flex-column '+active+'">\
                 <a data-toggle="collapse" href="#menu_'+i+'" class="'+collapse+' nav-link" aria-expanded="false">\
@@ -133,7 +138,7 @@ $.each(menu,function(i,v){
 			var active = "";
 			var collapse = "";
 			var show = '';
-			var expanded = false;
+			var expanded = true;
 		}
 		data+='<li class="d-flex flex-column '+active+'">\
 	                <a class="nav-link" href="'+v.link+'">\
