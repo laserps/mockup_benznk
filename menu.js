@@ -16,16 +16,6 @@ var menu = [
 	        submenu: null
 		},
 		{
-			name: 'ข้อตกลงมัดจำรถ used',
-    		link: 'deposit.html',
-    		submenu: null
-		},
-		{
-			name: 'ฟอร์มข้อตกลงมัดจำรถ used',
-	        link: 'form_deposit.html',
-	        submenu: null
-		},
-		{
 			name: 'สัญญามัดจำ',
     		link: 'deposit_contract.html',
     		submenu: null
@@ -34,7 +24,17 @@ var menu = [
 			name: 'ฟอร์มสัญญามัดจำ',
     		link: 'form_deposit_contract.html',
     		submenu: null
-		}
+		},
+		{
+			name: 'ข้อตกลงมัดจำรถ used',
+    		link: 'deposit.html',
+    		submenu: null
+		},
+		{
+			name: 'ฟอร์มข้อตกลงมัดจำรถ used',
+	        link: 'form_deposit.html',
+	        submenu: null
+		}	
 		]
 	},
 	{
