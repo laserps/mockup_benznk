@@ -8,17 +8,17 @@ var menu = [
 		submenu : [{
 			name: 'รับรถเข้า',
 	        	link: 'receivecar.html',
-	        	sub: null
+	        	submenu: null
 		},
 		{
 			name: 'ข้อตกลงมัดจำรถ used',
     			link: 'deposit.html',
-    			sub: null
+    			submenu: null
 		},
 		{
 			name: 'สัญญามัดจำ',
     			link: 'deposit_contract.html',
-    			sub: null
+    			submenu: null
 		}
 		]
 	}
