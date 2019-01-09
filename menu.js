@@ -3,22 +3,37 @@
 var menu = [
 	
 	{
-		name: 'รับรถเข้า',
+		name: 'การซื้อรถเข้า',
         link: 'receivecar.html',
 		submenu : [{
 			name: 'รับรถเข้า',
-	        	link: 'receivecar.html',
-	        	submenu: null
+	        link: 'receivecar.html',
+	        submenu: null
+		},
+		{
+			name: 'ฟอร์มรับรถเข้า',
+	        link: 'form_receivecar.html',
+	        submenu: null
 		},
 		{
 			name: 'ข้อตกลงมัดจำรถ used',
-    			link: 'deposit.html',
-    			submenu: null
+    		link: 'deposit.html',
+    		submenu: null
+		},
+		{
+			name: 'ฟอร์มข้อตกลงมัดจำรถ used',
+	        link: 'form_deposit.html',
+	        submenu: null
 		},
 		{
 			name: 'สัญญามัดจำ',
-    			link: 'deposit_contract.html',
-    			submenu: null
+    		link: 'deposit_contract.html',
+    		submenu: null
+		},
+		{
+			name: 'ฟอร์มสัญญามัดจำ',
+    		link: 'form_deposit_contract.html',
+    		submenu: null
 		}
 		]
 	}
