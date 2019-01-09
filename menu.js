@@ -38,6 +38,16 @@ var menu = [
 		]
 	},
 	{
+		name: 'สต๊อกรถยนต์',
+		link: 'status.html',
+		submenu: null
+	},
+	{
+		name: 'ปรับสถานะสต๊อกรถยนต์',
+		link: 'edit_status.html',
+		submenu: null
+	},
+	{
 		name: 'การขายรถ',
 		link: 'sale_contract.html',
 		submenu : [{
