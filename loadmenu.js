@@ -2,8 +2,8 @@ $(function () {
     var data = {
         menu: [
             {
-                name: 'ตารางแสดงประวัติการ',
-                link: 'datatable_tool.html',
+                name: 'รับรถเข้า',
+                link: 'receivecar.html',
                 sub: null
             }
             ,
