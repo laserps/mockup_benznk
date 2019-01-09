@@ -52,7 +52,7 @@ var menu = [
 		},
 		{
 			name: 'ส่งมอบรถ',
-			link: 'sale_sandcar',
+			link: 'sale_sendcar',
 			submenu: null
 		},
 		{
