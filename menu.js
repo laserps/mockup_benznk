@@ -2,6 +2,11 @@
 
 var menu = [
 	
+	{ 	name: 'แดชบอร์ด',
+		link: 'index.html',
+		sub: null
+
+	},
 	{
 		name: 'การซื้อรถ',
         link: 'receivecar.html',
@@ -12,7 +17,7 @@ var menu = [
 		},
 		{
 			name: 'ฟอร์มรับรถเข้า',
-	        link: 'form_receivecar.html',
+	        link: 'add_receivecar.html',
 	        submenu: null
 		},
 		{
@@ -22,7 +27,7 @@ var menu = [
 		},
 		{
 			name: 'ฟอร์มสัญญามัดจำ',
-    		link: 'form_deposit_contract.html',
+    		link: 'add_deposit_contract.html',
     		submenu: null
 		},
 		{
@@ -32,7 +37,7 @@ var menu = [
 		},
 		{
 			name: 'ฟอร์มข้อตกลงมัดจำรถ used',
-	        link: 'form_deposit.html',
+	        link: 'add_deposit.html',
 	        submenu: null
 		}	
 		]
@@ -62,7 +67,7 @@ var menu = [
 		},
 		{
 			name: 'ฟอร์มสัญญามัดจำ',
-			link: 'form_sale_contract.html',
+			link: 'add_sale_contract.html',
 			submenu: null
 		},
 		{
@@ -72,7 +77,7 @@ var menu = [
 		},
 		{
 			name: 'ฟอร์มส่งมอบรถ',
-			link: 'form_sale_sendcar.html',
+			link: 'add_sale_sendcar.html',
 			submenu: null
 		}
 		]
@@ -92,7 +97,7 @@ $.each(menu,function(i,v){
 		}else{
 			var active = "";
 			var collapse = "";
-			var show = '';
+			var show = 'show';
 			var expanded = true;
 		}
 		data+='<li class="d-flex flex-column '+active+'">\
@@ -114,7 +119,7 @@ $.each(menu,function(i,v){
 						}else{
 							var active = "";
 							var collapse = "";
-							var show = '';
+							var show = 'show';
 							var expanded = false;
 						}
                     	data+='\
@@ -137,7 +142,7 @@ $.each(menu,function(i,v){
 		}else{
 			var active = "";
 			var collapse = "";
-			var show = '';
+			var show = 'show';
 			var expanded = true;
 		}
 		data+='<li class="d-flex flex-column '+active+'">\
