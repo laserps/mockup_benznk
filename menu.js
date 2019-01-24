@@ -44,15 +44,15 @@ var menu = [
 	},
 	{
 		name: 'สต๊อกรถยนต์',
-		link: 'sataus',
+		link: 'stock.html',
 		submenu: [{
 			name: 'สต๊อกรถยนต์',
-			link: 'status.html',
+			link: 'stock.html',
 			sub: null
 		},
 		{
 			name: 'ปรับสถานะสต๊อกรถยนต์',
-			link: 'edit_status.html',
+			link: 'edit_stock.html',
 			sub: null
 		}
 		]
@@ -82,6 +82,46 @@ var menu = [
 		}
 		]
 	},
+		{
+		name: 'ข้อมูลพื้นฐาน',
+        link: '',
+		submenu : [{
+			name: 'Brand',
+	        link: 'brand.html',
+	        submenu: null
+		},
+		{
+			name: 'Model',
+	        link: 'model.html',
+	        submenu: null
+		},
+		{
+			name: 'Colour',
+    		link: 'colour.html',
+    		submenu: null
+		},
+		{
+			name: 'Special option',
+    		link: 'option.html',
+    		submenu: null
+		},
+		{
+			name: 'ชนิดเชื้อเพลง',
+    		link: 'fuel.html',
+    		submenu: null
+		},
+		{
+			name: 'ประเภทของรถ',
+    		link: 'type.html',
+    		submenu: null
+		},
+		{
+			name: 'สถานะดำเนินงาน',
+	        link: 'status.html',
+	        submenu: null
+		}	
+		]
+	}
 
 ];
 var data = "";
