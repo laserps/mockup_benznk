@@ -52,7 +52,7 @@
       </div>
     </div>
     <div class="main-panel ps-container ps-theme-default" data-ps-id="2707ddd2-7ec0-87a2-5ed3-378f2b253fd8">
-      <nav class="navbar navbar-default navbar-toggleable-lg navbar-inverse">
+      <nav class="navbar navbar-default navbar-toggleable-md navbar-inverse">
         <div class="navbar-minimize">
           <button id="minimizeSidebar" class="btn btn-round btn-white btn-fill btn-just-icon">
             <i class="ti-menu"></i>
@@ -63,6 +63,11 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand" href="file:///C:/Users/WorkBythai-NB01/Desktop/inspire/pages/sample-pages/manage-linkpopup.html"> </a>
+        </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarItems" aria-controls="navbarItems" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
         </div>
         <div class="collapse navbar-collapse" id="navbarItems">
           <ul class="nav navbar-nav ml-auto">
@@ -119,7 +124,6 @@
           </ul>
         </div>
       </nav>
-
       <div class="content">
         <div class="container-fluid">
           <div class="card">
@@ -130,297 +134,307 @@
                 </div>
               </div>
               <hr>
-              
               <div class="row pt-2">
-                <div class="col-lg-2 text-lg-right"> วดป. เกิด</div>
-                <div class="col-lg-3 mb-3">
-                  <input class="form-control" type="date" value="">
+                <div class="col-md-2 text-right"> วดป. เกิด</div>
+                <div class="col-md-3 input-group date" data-provide="datepicker">
+                  <input class="form-control" type="text" value="">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
                 </div>
-                <div class="col-lg-2 text-lg-right"> อายุ </div>
-                <div class="col-lg-2 col-md-3 col-6">
+                <div class="col-md-2 text-right"> อายุ </div>
+                <div class="col-md-2">
                   <input class="form-control">
                 </div>
-                <div class="col-lg-1 col-1"> ปี </div>
+                <div class="col-md-1"> ปี </div>
               </div>
-
-              <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right"> วันที่</div>
-                <div class="col-lg-3 col-md-3 col-6">
-                  <input class="form-control" type="date" value="">
+              <div class="row pt-2">
+                <div class="col-md-2 text-right"> วันที่</div>
+                <div class="col-md-3 input-group date" data-provide="datepicker">
+                  <input class="form-control" type="text" value="">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
                 </div>
               </div>
-              <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">รถยนต์ยี่ห้อ</div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
-                </div>
-                <div class="col-lg-2 text-lg-right">รุ่น</div>
-                <div class="col-lg-3">
+              <div class="row">
+                <div class="col-md-2 text-right">รถยนต์ยี่ห้อ</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
-              </div>
-              <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">ปีจดทะเบียน</div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
-                </div>
-                <div class="col-lg-2 text-lg-right">เลขทะเบียน</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">รุ่น</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">เลขตัวรถ</div>
-                <div class="col-lg-3 mb-3">
+                <div class="col-md-2 text-right">ปีจดทะเบียน</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
-                <div class="col-lg-2 text-lg-right">เลขเครื่องยนต์</div>
-                <div class="col-lg-3">
-                  <input class="form-control">
-                </div>
-              </div>
-              <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">ขายรถยนต์ให้แก่</div>
-                <div class="col-lg-3 mb-3">
-                  <input class="form-control">
-                </div>
-                <div class="col-lg-2 text-lg-right">บัตร</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">เลขทะเบียน</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">เลขที่บัตร</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">เลขตัวรถ</div>
+                <div class="col-md-3">
+                  <input class="form-control">
+                </div>
+                <div class="col-md-2 text-right">เลขเครื่องยนต์</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">ที่อยู่เลขที่</div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
+                <div class="col-md-2 text-right">ขายรถยนต์ให้แก่</div>
+                <div class="col-md-3">
+                  <input class="form-control">
                 </div>
-                <div class="col-lg-2 text-lg-right">หมู่ที่</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">บัตร</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">ตรอก/ซอย</div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
-                </div>
-                <div class="col-lg-2 text-lg-right">ถนน</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">เลขที่บัตร</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">ตำบล/แขวง</div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
+                <div class="col-md-2 text-right">ที่อยู่เลขที่</div>
+                <div class="col-md-3">
+                  <input class="form-control">
                 </div>
-                <div class="col-lg-2 text-lg-right">อำเภอ/เขต</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">หมู่ที่</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">จังหวัด</div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
+                <div class="col-md-2 text-right">ตรอก/ซอย</div>
+                <div class="col-md-3">
+                  <input class="form-control">
                 </div>
-                <div class="col-lg-2 text-lg-right">รหัสไปรษณีย์</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">ถนน</div>
+                <div class="col-md-3">
+                  <input class="form-control">
+                </div>
+              </div>
+              <div class="row pt-4">
+                <div class="col-md-2 text-right">ตำบล/แขวง</div>
+                <div class="col-md-3">
+                  <input class="form-control">
+                </div>
+                <div class="col-md-2 text-right">อำเภอ/เขต</div>
+                <div class="col-md-3">
+                  <input class="form-control">
+                </div>
+              </div>
+              <div class="row pt-4">
+                <div class="col-md-2 text-right">จังหวัด</div>
+                <div class="col-md-3">
+                  <input class="form-control">
+                </div>
+                <div class="col-md-2 text-right">รหัสไปรษณีย์</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-3">
-                <div class="col-lg-2 text-lg-right"> สถานที่ทำงาน</div>
-                <div class="col-lg-3">
-                  <textarea class="form-control mb-3" style="height:70px;"></textarea>
+                <div class="col-md-2 text-right"> สถานที่ทำงาน</div>
+                <div class="col-md-3">
+                  <input class="form-control" style="height:70px;">
                 </div>
-                <div class="col-lg-2 text-lg-right"> โทรศัพท์ </div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right"> โทรศัพท์ </div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">มือถือ</div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
+                <div class="col-md-2 text-right">มือถือ</div>
+                <div class="col-md-3">
+                  <input class="form-control">
                 </div>
-                <div class="col-lg-2 text-lg-right">แฟ็กซ์</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">แฟ็กซ์</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">ราคารถเป็นเงิน</div>
-                <div class="col-lg-1 col-md-4 col-6">
-                  <input class="form-control mb-3">
+                <div class="col-md-2 text-right">ราคารถเป็นเงิน</div>
+                <div class="col-md-1">
+                  <input class="form-control">
                 </div>
-                <div class="col-0 py-2">( </div>
-                <div class="col-lg-2 col-3 py-1">
+                <div class="col-md-0 py-2">( </div>
+                <div class="col-md-2 py-1">
                   <input class="form-control" style="height:30px;">
                 </div>
-                <div class="col-0 py-2"> ) </div>
-                <div class="col-lg-2 text-lg-right">ได้รับมัดจำไว้แทนเจ้าของรถ</div>
-                <div class="col-lg-1 col-md-4 col-6">
+                <div class="col-md-0 py-2"> ) </div>
+                <div class="col-md-2 text-right">ได้รับมัดจำไว้แทนเจ้าของรถ</div>
+                <div class="col-md-1">
                   <input class="form-control">
                 </div>
-                <div class="col-0 py-2">( </div>
-                <div class="col-lg-2 col-3 py-1">
+                <div class="col-md-0 py-2">( </div>
+                <div class="col-md-2 py-1">
                   <input class="form-control" style="height:30px;">
                 </div>
-                <div class="col-0 py-2"> ) </div>
+                <div class="col-md-0 py-2"> ) </div>
               </div>
-
               <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">ยังค้างชำระอีก</div>
-                <div class="col-lg-1 col-md-4 col-6">
+                <div class="col-md-2 text-right">ยังค้างชำระอีก</div>
+                <div class="col-md-1">
                   <input class="form-control">
                 </div>
-                <div class="col-0 py-2">( </div>
-                <div class="col-lg-2 col-3 py-1">
+                <div class="col-md-0 py-2">( </div>
+                <div class="col-md-2 py-1">
                   <input class="form-control" style="height:30px;">
                 </div>
-                <div class="col-0 py-2"> ) </div>
+                <div class="col-md-0 py-2"> ) </div>
               </div>
-
               <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right mb-3"> โดยรับมัดจำเป็น </div>
-                <div class="col-lg-1">
+                <div class="col-md-2 text-right"> โดยรับมัดจำเป็น </div>
+                <div class="col-md-1">
                   <input type="checkbox"> เงินสด </div>
-                <div class="col-lg-1">
+                <div class="col-md-0">
                   <input type="checkbox"> เช็ค ธนาคาร </div>
-                <div class="col-lg-2 col-md-3 col-6">
+                <div class="col-md-2">
                   <input class="form-control" style="height:25px;">
                 </div>
               </div>
-
               <div class="row pt-4">
-                <div class="col-lg-2 text-lg-right">สาขา</div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
+                <div class="col-md-2 text-right">สาขา</div>
+                <div class="col-md-3">
+                  <input class="form-control">
                 </div>
-                <div class="col-lg-2 text-lg-right">เลขที่เช็ค</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">เลขที่เช็ค</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-3">
-                <div class="col-lg-2 text-lg-right"> สั่งจ่ายวันที่</div>
-                <div class="col-lg-3  col-md-3 col-6">
-                  <input class="form-control mb-3" type="date" value="">
+                <div class="col-md-2 text-right"> สั่งจ่ายวันที่</div>
+                <div class="col-md-3 input-group date" data-provide="datepicker">
+                  <input class="form-control" type="text" value="">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
                 </div>
-                <div class="col-lg-2 text-lg-right">ชำระเงินให้หมดภายในวันที่</div>
-                <div class="col-lg-3  col-md-3 col-6">
-                  <input class="form-control" type="date" value="">
+                <div class="col-md-2 text-right">ชำระเงินให้หมดภายในวันที่</div>
+                <div class="col-md-3 input-group date" data-provide="datepicker">
+                  <input class="form-control" type="text" value="">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
                 </div>
               </div>
               <div class="row pt-3">
-                <div class="col-lg-2 text-lg-right">ผู้ซื้อ</div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
+                <div class="col-md-2 text-right">ผู้ซื้อ</div>
+                <div class="col-md-3">
+                  <input class="form-control">
                 </div>
-                <div class="col-lg-2 text-lg-right">ตัวแทนเจ้าของรถ</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">ตัวแทนเจ้าของรถ</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-3">
-                <div class="col-lg-2 text-lg-right">พยาน</div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
+                <div class="col-md-2 text-right">พยาน</div>
+                <div class="col-md-3">
+                  <input class="form-control">
                 </div>
-                <div class="col-lg-2 text-lg-right">พยาน</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">พยาน</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-3">
-                <div class="col-lg-2 text-lg-right"> หมายเหตุ</div>
-                <div class="col-lg-3">
-                  <textarea class="form-control" style="height:70px;"></textarea>
+                <div class="col-md-2 text-right"> หมายเหตุ</div>
+                <div class="col-md-3">
+                  <input class="form-control" style="height:70px;">
                 </div>
               </div>
               <hr>
               <div class="row pt-2">
-                <div class="col-lg-2 text-lg-right"> ผู้รับรถ </div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
+                <div class="col-md-2 text-right"> ผู้รับรถ </div>
+                <div class="col-md-3">
+                  <input class="form-control">
                 </div>
-                <div class="col-lg-2 text-lg-right">วันที่รับรถ</div>
-                <div class="col-lg-3 col-md-3 col-6">
-                  <input class="form-control mb-3" type="date" value="">
+                <div class="col-md-2 text-right">วันที่รับรถ</div>
+                <div class="col-md-3 input-group date" data-provide="datepicker">
+                  <input class="form-control" type="text" value="">
+                  <div class="input-group-addon">
+                    <i class="fa fa-calendar"></i>
+                  </div>
                 </div>
               </div>
               <div class="row pt-2">
-                <div class="col-lg-2 text-lg-right"> เลขไมล์วันรับรถ </div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
-                </div>
-                <div class="col-lg-2 text-lg=right"> เวลา </div>
-                <div class="col-lg-2 col-md-3 col-6">
-                  <input class="form-control" type="time">
-                </div>
-                <div class="col-1"> น. </div>
-              </div>
-              <div class="row pt-3">
-                <div class="col-lg-2 text-lg-right">ผู้ซื้อ</div>
-                <div class="col-lg-3 mb-3">
+                <div class="col-md-2 text-right"> เลขไมล์วันรับรถ </div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
-                <div class="col-lg-2 text-lg-right">ผู้มอบรถ</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right"> เวลา </div>
+                <div class="col-md-2">
+                  <input class="form-control" type="number">
+                </div>
+                <div class="col-md-1"> น. </div>
+              </div>
+              <div class="row pt-3">
+                <div class="col-md-2 text-right">ผู้ซื้อ</div>
+                <div class="col-md-3">
+                  <input class="form-control">
+                </div>
+                <div class="col-md-2 text-right">ผู้มอบรถ</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <div class="row pt-3">
-                <div class="col-lg-2 text-lg-right">พยาน</div>
-                <div class="col-lg-3">
-                  <input class="form-control mb-3">
+                <div class="col-md-2 text-right">พยาน</div>
+                <div class="col-md-3">
+                  <input class="form-control">
                 </div>
-                <div class="col-lg-2 text-lg-right">พยาน</div>
-                <div class="col-lg-3">
+                <div class="col-md-2 text-right">พยาน</div>
+                <div class="col-md-3">
                   <input class="form-control">
                 </div>
               </div>
               <br><br>
               <div class="row pt-4">
-                <div class="col-lg-2 col-3 text-right">รายละเอียดรถที่ซื้อขายมีดังนี้ </div>
-                <div class="col-lg-10 col-9">1. ไม่มีรับประกันหลังการขายใดๆ </div>
+                <div class="col-md-2 text-right">รายละเอียดรถที่ซื้อขายมีดังนี้ </div>
+                <div class="col-md-2">1. ไม่มีรับประกันหลังการขายใดๆ </div>
               </div>
               <div class="row pt-3">
-                <div class="col-lg-2 col-3">
+                <div class="col-md-2">
                 </div>
-                <div class="col-lg-10 col-9">2. บริษัทฯรับประกันภายใน 30 วัน ซื้อคืนเต็มราคา หากพิสูจน์ได้ว่ารถคันดังกล่าวพลิกคว่ำหรือชนหนักมาก่อน</div>
+                <div class="col-md-6">2. บริษัทฯรับประกันภายใน 30 วัน ซื้อคืนเต็มราคา หากพิสูจน์ได้ว่ารถคันดังกล่าวพลิกคว่ำหรือชนหนักมาก่อน</div>
               </div>
               <div class="row pt-3">
-                <div class="col-lg-2 col-3">
+                <div class="col-md-2">
                 </div>
-                <div class="col-lg-1 col-2">3.<input type="checkbox">มี</div>
-                <div class="col-5">
-                  <input type="checkbox">ไม่มี สมุดคู่มือเข้าศูนย์บริการ (SERVICE BOOK)</div>
+                <div class="col-md-1">3. <input type="checkbox"> มี</div>
+                <div class="col-md-5">
+                  <input type="checkbox"> ไม่มี สมุดคู่มือเข้าศูนย์บริการ (SERVICE BOOK)</div>
               </div>
               <div class="row pt-4">
-                <div class="col-lg-2 col-3">
+                <div class="col-md-2">
                 </div>
-                <div class="col-lg-1 col-2">4. ได้รับ</div>
-                <div class="col-3">
+                <div class="col-md-1">4. ได้รับ</div>
+                <div class="col-md-2">
                   <input type="checkbox"> คู่มือใช้รถ</div>
-                <div class="col-lg-2 col-3">
+                <div class="col-md-2">
                   <input type="checkbox"> SERVICE BOOK </div>
               </div>
               <div class="row pt-2">
-                <div class="col-lg-2 col-3">
+                <div class="col-md-2">
                 </div>
-                <div class="col-lg-1 col-2">
+                <div class="col-md-1">
                 </div>
-                <div class="col-3">
+                <div class="col-md-2">
                   <input type="checkbox"> กุญแจสำรอง </div>
-                <div class="col-2">
+                <div class="col-md-2">
                   <input type="checkbox"> โทรศัพท์ </div>
               </div>
               <br>

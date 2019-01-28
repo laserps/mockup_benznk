@@ -124,6 +124,356 @@
           </ul>
         </div>
       </nav>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="card">
+            <div class="content">
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="lead">รับรถเข้า<br></p>
+                </div>
+              </div>
+              <hr>
+              <div id="datatables_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
+                <div class="row">
+                  <div class=" col-md-6">
+                    <div class="dataTables_length" id="datatables_length">
+                      <label class="form-group">Show <select name="datatables_length" aria-controls="datatables" class="form-control input-sm">
+                          <option value="10">10</option>
+                          <option value="25">25</option>
+                          <option value="50">50</option>
+                          <option value="-1">All</option>
+                        </select> entries</label>
+                    </div>
+                  </div>
+                  <div class="col col-md-6">
+                    <div id="datatables_filter" class="dataTables_filter">
+                      <label class="form-group">
+                        <input type="search" class="form-control input-sm" placeholder="Search records" aria-controls="datatables"> </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row pt-2">
+                  <div class="1">
+                    <a class="btn btn-info btn-xs">อ่านแล้วทั้งหมด</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th><input type="checkbox"></th>
+                          <th>ลำดับ</th>
+                          <th>วันที่รับรถ</th>
+                          <th>ชื่อผู้ขายรถยนต์</th>
+                          <th>โทรศัพท์มือถือ</th>
+                          <th>ยี่ห้อรถยนต์</th>
+                          <th>รุ่น</th>
+                          <th>อุปรกรณ์</th>
+                          <th>สี</th>
+                          <th>ปี</th>
+                          <th>หมายเลขทะเบียน</th>
+                          <th>จังหวัด</th>
+                          <th>หมายเลขตัวรถ</th>
+                          <th>หมายเลขเครื่อง</th>
+                          <th>จำนวนเงินทั้งหมด</th>
+                          <th>สถานะ</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr style="background:#E8E8E8;">
+                          <td><input type="checkbox"></td>
+                          <td>1</td>
+                          <td>01/01/2562</td>
+                          <td>นายชลนธี ศรีสุวรรณ</td>
+                          <td>090-0000000</td>
+                          <td>Benz</td>
+                          <td>E200</td>
+                          <td>Spoiler</td>
+                          <td>ดำ</td>
+                          <td>2014</td>
+                          <td>สว4545</td>
+                          <td>กรุงเทพ</td>
+                          <td>MRHFD1640AP103716</td>
+                          <td>R18A1AP14491</td>
+                          <td>800,000</td>
+                          <td><small class="badge badge-danger">ถึงวันรับรถ</small></td>
+                        </tr>
+                        <tr style="background:#E8E8E8;">
+                          <td><input type="checkbox"></td>
+                          <td>2</td>
+                          <td>02/01/2562</td>
+                          <td>นายต่อพงษ์ วงศ์พานิช</td>
+                          <td>090-4567895</td>
+                          <td>Benz</td>
+                          <td>E300</td>
+                          <td>Spoiler</td>
+                          <td>แดง</td>
+                          <td>2013</td>
+                          <td>กด1212</td>
+                          <td>ชลบุรี</td>
+                          <td>MRHFD1640AP103716</td>
+                          <td>R18A1AP14491</td>
+                          <td>700,000</td>
+                          <td><small class="badge badge-warning">ใกล้ถึงวันรับรถ</small></td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox"></td>
+                          <td>3</td>
+                          <td>02/01/2562</td>
+                          <td> นายสนั่น รักขุมแก้ว </td>
+                          <td>099-8595658</td>
+                          <td>Benz </td>
+                          <td>A180</td>
+                          <td>Spoiler</td>
+                          <td>ดำ</td>
+                          <td>2014</td>
+                          <td>พว4785</td>
+                          <td>ชลบุรี</td>
+                          <td>MRHFD1640AP103716</td>
+                          <td>R18A1AP14491</td>
+                          <td>900,000</td>
+                          <td><small class="badge badge-success">ติดตามปกติ</small></td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox"></td>
+                          <td>4</td>
+                          <td>04/01/2562</td>
+                          <td>นางสาวน้ำผึ้ง เหนียวแก้ว </td>
+                          <td>099-8565225</td>
+                          <td>Benz</td>
+                          <td>C200</td>
+                          <td>Spoiler</td>
+                          <td>ขาว</td>
+                          <td>2013</td>
+                          <td>วล1125</td>
+                          <td>กรุงเทพ</td>
+                          <td>MRHFD1640AP103716</td>
+                          <td>R18A1AP14491</td>
+                          <td>500,000</td>
+                          <td><small class="badge badge-success">ติดตามปกติ</small></td>
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td colspan="23"></td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-5">
+                    <div class="dataTables_info" id="datatables_info" role="status" aria-live="polite">Showing 1 to 10 of 40 entries</div>
+                  </div>
+                  <div class="col-sm-12 col-md-7">
+                    <div class="dataTables_paginate paging_full_numbers pull-right" id="datatables_paginate">
+                      <ul class="pagination">
+                        <li class="paginate_button page-item first disabled" id="datatables_first">
+                          <a href="#" aria-controls="datatables" data-dt-idx="0" tabindex="0" class="page-link">First</a>
+                        </li>
+                        <li class="paginate_button page-item previous disabled" id="datatables_previous">
+                          <a href="#" aria-controls="datatables" data-dt-idx="1" tabindex="0" class="page-link">Previous</a>
+                        </li>
+                        <li class="paginate_button page-item active">
+                          <a href="#" aria-controls="datatables" data-dt-idx="2" tabindex="0" class="page-link">1</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="3" tabindex="0" class="page-link">2</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="4" tabindex="0" class="page-link">3</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="5" tabindex="0" class="page-link">4</a>
+                        </li>
+                        <li class="paginate_button page-item next" id="datatables_next">
+                          <a href="#" aria-controls="datatables" data-dt-idx="6" tabindex="0" class="page-link">Next</a>
+                        </li>
+                        <li class="paginate_button page-item last" id="datatables_last">
+                          <a href="#" aria-controls="datatables" data-dt-idx="7" tabindex="0" class="page-link">Last</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="lead">เรียกขอรถ</p>
+                </div>
+              </div>
+              <hr>
+              <div id="datatables_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
+                <div class="row">
+                  <div class=" col-md-6">
+                    <div class="dataTables_length" id="datatables_length">
+                      <label class="form-group">Show <select name="datatables_length" aria-controls="datatables" class="form-control input-sm">
+                          <option value="10">10</option>
+                          <option value="25">25</option>
+                          <option value="50">50</option>
+                          <option value="-1">All</option>
+                        </select> entries</label>
+                    </div>
+                  </div>
+                  <div class="col col-md-6">
+                    <div id="datatables_filter" class="dataTables_filter">
+                      <label class="form-group">
+                        <input type="search" class="form-control input-sm" placeholder="Search records" aria-controls="datatables"> </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row pt-2">
+                  <div class="1">
+                    <a class="btn btn-info btn-xs">อ่านแล้วทั้งหมด</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th><input type="checkbox"></th>
+                          <th>ลำดับ</th>
+                          <th>วันที่</th>
+                          <th>ชื่อผู้เรียกขอ</th>
+                          <th>โทรศัพท์มือถือ</th>
+                          <th>ยี่ห้อรถยนต์</th>
+                          <th>รุ่น</th>
+                          <th>สี</th>
+                          <th>ปี</th>
+                          <th>ประเภทของรถ</th>
+                          <th>สถานะ</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr style="background:#E8E8E8;">
+                          <td><input type="checkbox"></td>
+                          <td>1</td>
+                          <td>01/01/2562</td>
+                          <td>นายชลนธี ศรีสุวรรณ</td>
+                          <td>090-0000000</td>
+                          <td>Benz</td>
+                          <td>E230</td>
+                          <td>ดำ</td>
+                          <td>2014</td>
+                          <td>รถยนต์นั่งส่วนบุคคลไม่เกิน 7 ที่นั่ง</td>
+                          <td><small class="badge badge-danger">ไม่อนุมัติ</small></td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox"></td>
+                          <td>2</td>
+                          <td>02/01/2562</td>
+                          <td>นายต่อพงษ์ วงศ์พานิช</td>
+                          <td>090-4567895</td>
+                          <td>Benz</td>
+                          <td>E200</td>
+                          <td>แดง</td>
+                          <td>2013</td>
+                          <td>รถยนต์นั่งส่วนบุคคลไม่เกิน 7 ที่นั่ง</td>
+                          <td><small class="badge badge-warning">รอดำเนินการ</small></td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox"></td>
+                          <td>3</td>
+                          <td>02/01/2562</td>
+                          <td> นายสนั่น รักขุมแก้ว </td>
+                          <td>099-8595658</td>
+                          <td>Benz </td>
+                          <td>A180</td>
+                          <td>ดำ</td>
+                          <td>2014</td>
+                          <td>รถยนต์นั่งส่วนบุคคลไม่เกิน 7 ที่นั่ง</td>
+                          <td><small class="badge badge-warning">รอดำเนินการ</small></td>
+                        </tr>
+                        <tr style="background:#E8E8E8;">
+                          <td><input type="checkbox"></td>
+                          <td>4</td>
+                          <td>04/01/2562</td>
+                          <td>นางสาวน้ำผึ้ง เหนียวแก้ว </td>
+                          <td>099-8565225</td>
+                          <td>Benz</td>
+                          <td>C150</td>
+                          <td>ขาว</td>
+                          <td>2013</td>
+                          <td>รถยนต์นั่งส่วนบุคคลไม่เกิน 7 ที่นั่ง</td>
+                          <td><small class="badge badge-success">ได้รับรถแล้ว</small></td>
+                        </tr>
+                        <tr>
+                          <td><input type="checkbox"></td>
+                          <td>5</td>
+                          <td>05/01/2562</td>
+                          <td>นางสาวนิรมล พุฒเจริญ</td>
+                          <td>090-4562220</td>
+                          <td>Benz</td>
+                          <td>A250</td>
+                          <td>ขาว</td>
+                          <td>2013</td>
+                          <td>รถยนต์นั่งส่วนบุคคลไม่เกิน 7 ที่นั่ง</td>
+                          <td><small class="badge badge-success">ได้รับรถแล้ว</small></td>
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td colspan="23"></td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-5">
+                    <div class="dataTables_info" id="datatables_info" role="status" aria-live="polite">Showing 1 to 10 of 40 entries</div>
+                  </div>
+                  <div class="col-sm-12 col-md-7">
+                    <div class="dataTables_paginate paging_full_numbers pull-right" id="datatables_paginate">
+                      <ul class="pagination">
+                        <li class="paginate_button page-item first disabled" id="datatables_first">
+                          <a href="#" aria-controls="datatables" data-dt-idx="0" tabindex="0" class="page-link">First</a>
+                        </li>
+                        <li class="paginate_button page-item previous disabled" id="datatables_previous">
+                          <a href="#" aria-controls="datatables" data-dt-idx="1" tabindex="0" class="page-link">Previous</a>
+                        </li>
+                        <li class="paginate_button page-item active">
+                          <a href="#" aria-controls="datatables" data-dt-idx="2" tabindex="0" class="page-link">1</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="3" tabindex="0" class="page-link">2</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="4" tabindex="0" class="page-link">3</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="5" tabindex="0" class="page-link">4</a>
+                        </li>
+                        <li class="paginate_button page-item next" id="datatables_next">
+                          <a href="#" aria-controls="datatables" data-dt-idx="6" tabindex="0" class="page-link">Next</a>
+                        </li>
+                        <li class="paginate_button page-item last" id="datatables_last">
+                          <a href="#" aria-controls="datatables" data-dt-idx="7" tabindex="0" class="page-link">Last</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <footer class="footer">
       </footer>
       <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;">

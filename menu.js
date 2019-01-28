@@ -2,8 +2,13 @@
 
 var menu = [
 	
-	{ 	name: 'แดชบอร์ด',
+	{ 	name: 'แดชบอร์ด (Sale)',
 		link: 'index.html',
+		sub: null
+
+	},
+	{ 	name: 'แดชบอร์ด (Manager)',
+		link: 'index2.html',
 		sub: null
 
 	},
@@ -54,6 +59,26 @@ var menu = [
 			name: 'ปรับสถานะสต๊อกรถยนต์',
 			link: 'edit_stock.html',
 			sub: null
+		},
+		{
+			name: 'ฟอร์มโบวชัวร์',
+			link: 'add_brochure.html',
+			sub: null
+		}
+		]
+	},
+	{
+		name: 'เรียกขอรถ',
+		link: 'request.html',
+		submenu: [{
+			name: 'เรียกขอรถ',
+			link: 'request.html',
+			sub: null
+		},
+		{
+			name: 'ฟอร์มเรียกขอรถ',
+			link: 'add_request.html',
+			sub: null
 		}
 		]
 	},
@@ -86,17 +111,17 @@ var menu = [
 		name: 'ข้อมูลพื้นฐาน',
         link: '',
 		submenu : [{
-			name: 'Brand',
+			name: 'แบรนด์',
 	        link: 'brand.html',
 	        submenu: null
 		},
 		{
-			name: 'Model',
+			name: 'รุ่น',
 	        link: 'model.html',
 	        submenu: null
 		},
 		{
-			name: 'Colour',
+			name: 'สี',
     		link: 'colour.html',
     		submenu: null
 		},

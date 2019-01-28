@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
   <link href="assets/css/font-muli.css" rel="stylesheet" type="text/css">
   <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
-  <link href="../../assets/css/themify-icons.css" rel="stylesheet">
+  <link href="assets/css/themify-icons.css" rel="stylesheet">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     <div class="sidebar">
       <div class="logo">
         <a href="#" class="simple-text">
-          <img class="card-img-top" src="assets/img/logo.png" alt="Card image cap" style="width:70%;"> </a>
+          <img class="card-img-top" src="../../assets/img/logo.png" alt="Card image cap" style="width:70%;"> </a>
       </div>
       <div class="logo logo-mini">
         <a href="#" class="simple-text"> Work </a>
@@ -130,10 +130,7 @@
             <div class="content">
               <div class="row">
                 <div class="col-md-6">
-                  <p class="lead">สัญญามัดจำ</p>
-                </div>
-                <div class="col-md-6 text-right">
-                  <a class="btn btn-success" href="add_deposit_contract.html"><i class="fa fa-plus" aria-hidden="true"></i> สัญญามัดจำ</a>
+                  <p class="lead">อนุมัติค่าคอมมิชชั่น<br></p>
                 </div>
               </div>
               <hr>
@@ -156,17 +153,23 @@
                     </div>
                   </div>
                 </div>
+                <div class="row pt-2">
+                  <div class="1">
+                    <a class="btn btn-info btn-xs">อ่านแล้วทั้งหมด</a>
+                  </div>
+                </div>
                 <div class="row">
                   <div class="col-md-12">
                     <table class="table">
                       <thead>
                         <tr>
+                          <th><input type="checkbox"></th>
                           <th>ลำดับ</th>
-                          <th>วันที่</th>
+                          <th>วันที่ขายได้</th>
                           <th>ชื่อผู้ขายรถยนต์</th>
-                          <th>ชื่อผู้ซื้อรถยนต์</th>
                           <th>โทรศัพท์มือถือ</th>
                           <th>ยี่ห้อรถยนต์</th>
+                          <th>รุ่น</th>
                           <th>อุปรกรณ์</th>
                           <th>สี</th>
                           <th>ปี</th>
@@ -175,114 +178,81 @@
                           <th>หมายเลขตัวรถ</th>
                           <th>หมายเลขเครื่อง</th>
                           <th>จำนวนเงินทั้งหมด</th>
-                          <th>เครื่องมือ</th>
+                          <th>สถานะ</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
+                        <tr style="background:#E8E8E8;">
+                          <td><input type="checkbox"></td>
                           <td>1</td>
                           <td>01/01/2562</td>
                           <td>นายชลนธี ศรีสุวรรณ</td>
-                          <td>นางสาวจิตรา อรัญพร</td>
                           <td>090-0000000</td>
                           <td>Benz</td>
+                          <td>E200</td>
                           <td>Spoiler</td>
                           <td>ดำ</td>
                           <td>2014</td>
                           <td>สว4545</td>
                           <td>กรุงเทพ</td>
-                          <td>1234</td>
-                          <td>0000</td>
+                          <td>MRHFD1640AP103716</td>
+                          <td>R18A1AP14491</td>
                           <td>800,000</td>
-                          <td>
-                            <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
-                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
-                            <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
-                          </td>
+                          <td><small class="badge badge-warning">ยังไม่อนุมัติ</small></td>
                         </tr>
-                        <tr>
+                        <tr style="background:#E8E8E8;">
+                          <td><input type="checkbox"></td>
                           <td>2</td>
                           <td>02/01/2562</td>
                           <td>นายต่อพงษ์ วงศ์พานิช</td>
-                          <td>นายพุฒเดช สุขอุดม</td>
                           <td>090-4567895</td>
                           <td>Benz</td>
+                          <td>E300</td>
                           <td>Spoiler</td>
                           <td>แดง</td>
                           <td>2013</td>
                           <td>กด1212</td>
                           <td>ชลบุรี</td>
-                          <td>1235</td>
-                          <td>0001</td>
+                          <td>MRHFD1640AP103716</td>
+                          <td>R18A1AP14491</td>
                           <td>700,000</td>
-                          <td>
-                            <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
-                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
-                            <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
-                          </td>
+                          <td><small class="badge badge-warning">ยังไม่อนุมัติ</small></td>
                         </tr>
                         <tr>
+                          <td><input type="checkbox"></td>
                           <td>3</td>
                           <td>02/01/2562</td>
                           <td> นายสนั่น รักขุมแก้ว </td>
-                          <td>นายพรฤกษ์ อุยจาด</td>
                           <td>099-8595658</td>
                           <td>Benz </td>
+                          <td>A180</td>
                           <td>Spoiler</td>
                           <td>ดำ</td>
                           <td>2014</td>
                           <td>พว4785</td>
                           <td>ชลบุรี</td>
-                          <td>1236</td>
-                          <td>0002</td>
+                          <td>MRHFD1640AP103716</td>
+                          <td>R18A1AP14491</td>
                           <td>900,000</td>
-                          <td>
-                            <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
-                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
-                            <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
-                          </td>
+                          <td><small class="badge badge-success">อนุมัติแล้ว</small></td>
                         </tr>
                         <tr>
+                          <td><input type="checkbox"></td>
                           <td>4</td>
                           <td>04/01/2562</td>
                           <td>นางสาวน้ำผึ้ง เหนียวแก้ว </td>
-                          <td>นางสาวขวัญแก้ว คุ้มได้อยู่</td>
                           <td>099-8565225</td>
                           <td>Benz</td>
+                          <td>C200</td>
                           <td>Spoiler</td>
                           <td>ขาว</td>
                           <td>2013</td>
                           <td>วล1125</td>
                           <td>กรุงเทพ</td>
-                          <td>1237</td>
-                          <td>0003<br></td>
+                          <td>MRHFD1640AP103716</td>
+                          <td>R18A1AP14491</td>
                           <td>500,000</td>
-                          <td>
-                            <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
-                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
-                            <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>5</td>
-                          <td>05/01/2562</td>
-                          <td>นางสาวนิรมล พุฒเจริญ</td>
-                          <td>นางสาวจงศิริ ร่มพิกุล</td>
-                          <td>090-4562220</td>
-                          <td>Benz</td>
-                          <td>Spoiler</td>
-                          <td>ขาว</td>
-                          <td>2013</td>
-                          <td>กพ6569</td>
-                          <td>เชียงใหม่</td>
-                          <td>1238</td>
-                          <td>0004</td>
-                          <td>500,000</td>
-                          <td>
-                            <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
-                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
-                            <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
-                          </td>
+                          <td><small class="badge badge-success">อนุมัติแล้ว</small></td>
                         </tr>
                         <tr></tr>
                         <tr></tr>
@@ -338,13 +308,6 @@
         </div>
       </div>
       <footer class="footer">
-        <div class="container">
-          <p class="copyright float-right"> © <script>
-              document.write(new Date().getFullYear())
-            </script>
-            <a href="#">Workbythai Internet And Marketing Co., Ltd.</a>
-          </p>
-        </div>
       </footer>
       <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;">
         <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
@@ -354,53 +317,53 @@
       </div>
     </div>
   </div>
-  <script>
-    var main_menu = "deposit_contract.html";
-    var current_page = "deposit_contract.html";
+  <script style="">
+    var main_menu = "";
+    var current_page = "index.html";
   </script>
   <!--   Core JS Files   -->
-  <script src="assets/vendors/jquery-3.1.1.min.js" type="text/javascript"></script>
-  <script src="assets/vendors/jquery-ui.min.js" type="text/javascript"></script>
-  <script src="assets/vendors/tether.min.js" type="text/javascript"></script>
-  <script src="assets/vendors/bootstrap.min.js" type="text/javascript"></script>
-  <script src="assets/vendors/material.min.js" type="text/javascript"></script>
-  <script src="assets/vendors/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
+  <script src="../../assets/vendors/jquery-3.1.1.min.js" type="text/javascript"></script>
+  <script src="../../assets/vendors/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="../../assets/vendors/tether.min.js" type="text/javascript"></script>
+  <script src="../../assets/vendors/bootstrap.min.js" type="text/javascript"></script>
+  <script src="../../assets/vendors/material.min.js" type="text/javascript"></script>
+  <script src="../../assets/vendors/perfect-scrollbar.jquery.min.js" type="text/javascript"></script>
   <!-- Forms Validations Plugin -->
-  <script src="assets/vendors/jquery.validate.min.js"></script>
+  <script src="../../assets/vendors/jquery.validate.min.js"></script>
   <!--  Plugin for Date Time Picker and Full Calendar Plugin-->
-  <script src="assets/vendors/moment.min.js"></script>
+  <script src="../../assets/vendors/moment.min.js"></script>
   <!--  Charts Plugin -->
-  <script src="assets/vendors/chartist.min.js"></script>
+  <script src="../../assets/vendors/chartist.min.js"></script>
   <!--  Plugin for the Wizard -->
-  <script src="assets/vendors/jquery.bootstrap-wizard.js"></script>
+  <script src="../../assets/vendors/jquery.bootstrap-wizard.js"></script>
   <!--  Notifications Plugin    -->
-  <script src="assets/vendors/bootstrap-notify.js"></script>
+  <script src="../../assets/vendors/bootstrap-notify.js"></script>
   <!-- DateTimePicker Plugin -->
-  <script src="assets/vendors/bootstrap-datepicker.min.js"></script>
+  <script src="../../assets/vendors/bootstrap-datepicker.min.js"></script>
   <!-- Vector Map plugin -->
-  <script src="assets/vendors/jquery-jvectormap.js"></script>
+  <script src="../../assets/vendors/jquery-jvectormap.js"></script>
   <!-- Sliders Plugin -->
-  <script src="assets/vendors/nouislider.min.js"></script>
+  <script src="../../assets/vendors/nouislider.min.js"></script>
   <!-- Select Plugin -->
-  <script src="assets/vendors/jquery.select-bootstrap.js"></script>
+  <script src="../../assets/vendors/jquery.select-bootstrap.js"></script>
   <!--  DataTables.net Plugin    -->
-  <script src="assets/vendors/jquery.dataTables.min.js"></script>
-  <script src="assets/vendors/dataTables.bootstrap4.js"></script>
+  <script src="../../assets/vendors/jquery.dataTables.min.js"></script>
+  <script src="../../assets/vendors/dataTables.bootstrap4.js"></script>
   <!-- Sweet Alert 2 plugin -->
-  <script src="assets/vendors/sweetalert/js/sweetalert2.min.js"></script>
+  <script src="../../assets/vendors/sweetalert/js/sweetalert2.min.js"></script>
   <!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
-  <script src="assets/vendors/jasny-bootstrap.min.js"></script>
+  <script src="../../assets/vendors/jasny-bootstrap.min.js"></script>
   <!--  Full Calendar Plugin    -->
-  <script src="assets/vendors/fullcalendar.min.js"></script>
+  <script src="../../assets/vendors/fullcalendar.min.js"></script>
   <!-- TagsInput Plugin -->
-  <script src="assets/vendors/jquery.tagsinput.js"></script>
+  <script src="../../assets/vendors/jquery.tagsinput.js"></script>
   <!-- Material Dashboard javascript methods -->
-  <script src="assets/js/inspire.js"></script>
+  <script src="../../assets/js/inspire.js"></script>
   <!-- Material Dashboard DEMO methods, don't include it in your project! -->
-  <script src="assets/js/demo.js"></script>
+  <script src="../../assets/js/demo.js"></script>
   <script src="menu.js"></script>
   <!--  Checkbox, Radio, Switch and Tags Input Plugins -->
-  <script src="assets/js/bootstrap-checkbox-radio-switch-tags.js"></script>
+  <script src="../../assets/js/bootstrap-checkbox-radio-switch-tags.js"></script>
   <pingendo onclick="window.open('https://pingendo.com/', '_blank')" style="cursor:pointer;position: fixed;bottom: 20px;right:20px;padding:4px;background-color: #00b0eb;border-radius: 8px; width:220px;display:flex;flex-direction:row;align-items:center;justify-content:center;font-size:14px;color:white">Made with Pingendo Free&nbsp;&nbsp;<img src="https://pingendo.com/site-assets/Pingendo_logo_big.png" class="d-block" alt="Pingendo logo" height="16"></pingendo>
 </body>
 
