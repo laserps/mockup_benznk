@@ -279,3 +279,8 @@ a {
     max-height: unset;
     height: unset;
 }
+
+.bg_unread{
+    background-color: #A9A9A9;
+    font-color:#000000;
+}
