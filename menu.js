@@ -4,17 +4,20 @@ var menu = [
 	
 	{ 	name: 'แดชบอร์ด (Sale)',
 		link: 'index.html',
+		icon: 'ti-home',
 		sub: null
 
 	},
 	{ 	name: 'แดชบอร์ด (Manager)',
 		link: 'index2.html',
+		icon: 'ti-home',
 		sub: null
 
 	},
 	{
 		name: 'การซื้อรถ',
         link: 'receivecar.html',
+        icon: 'ti-car',
 		submenu : [{
 			name: 'รับรถเข้า',
 	        link: 'receivecar.html',
@@ -50,6 +53,7 @@ var menu = [
 	{
 		name: 'สต๊อกรถยนต์',
 		link: 'stock.html',
+		icon: 'ti-harddrives',
 		submenu: [{
 			name: 'สต๊อกรถยนต์',
 			link: 'stock.html',
@@ -70,6 +74,7 @@ var menu = [
 	{
 		name: 'เรียกขอรถ',
 		link: 'request.html',
+		icon: 'ti-comments',
 		submenu: [{
 			name: 'เรียกขอรถ',
 			link: 'request.html',
@@ -85,6 +90,7 @@ var menu = [
 	{
 		name: 'การขายรถ',
 		link: 'sale_contract.html',
+		icon: 'ti-files',
 		submenu : [{
 			name: 'สัญญามัดจำ',
 			link: 'sale_contract.html',
@@ -110,6 +116,7 @@ var menu = [
 		{
 		name: 'ข้อมูลพื้นฐาน',
         link: '',
+        icon: 'ti-agenda',
 		submenu : [{
 			name: 'แบรนด์',
 	        link: 'brand.html',
