@@ -138,31 +138,56 @@
               </div>
               <hr>
               <div class="row pb-2">
-                <div class="col-md-3 text-center">
-                  <b>Active </b>
+                <div class="col-md-4 text-center">
+                  <b>Action </b>
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-3 text-center">
-                  <a class="btn btn-dark btn-xs">ซ่อมบำรุง</a>
-                  <a class="btn btn-dark btn-xs">ติดจอง</a>
-                  <a class="btn btn-dark btn-xs">พร้อมขาย</a>
-                  <a class="btn btn-dark btn-xs">ขายแล้ว</a>
+                <div class="col-md-4 text-center">
+                  <a class="badg badge-primary btn-xs">นำเข้าใหม่</a>
+                  <a class="badg badge-primary btn-xs">ซ่อมบำรุง</a>
+                  <a class="badg badge-primary btn-xs">ติดจอง</a>
+                  <a class="badg badge-primary btn-xs">พร้อมขาย</a>
+                  <a class="badg badge-primary btn-xs">ขายแล้ว</a>
                 </div>
               </div>
               <br>
               <hr>
               <div id="datatables_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
                 <div class="row">
-                  <div class="col-md-5 text-right"> สถานะดำเนินงาน </div>
-                  <div class="col-md-2">
+                  <div class="col-md-2 text-right"> สถานะรถ </div>
+                  <div class="col-md-3">
                     <select class="form-control">
                       <option></option>
+                      <option>รถเก่า</option>
+                      <option>รถใหม่</option>
+                    </select>
+                  </div>
+                  <div class="col-md-2 text-right"> วันที่รับซื้อเข้ามา </div>
+                  <div class="col-md-3">
+                    <input type="date" class="form-control">
+                  </div>
+                </div>
+                <div class="row pt-3">
+                  <div class="col-md-2 text-right"> สถานะดำเนินงาน </div>
+                  <div class="col-md-3">
+                    <select class="form-control">
+                      <option></option>
+                      <option>นำเข้าใหม่</option>
                       <option value="ซ่อมบำรุง">ซ่อมบำรุง</option>
                       <option value="ติดจอง">ติดจอง</option>
                       <option value="พร้อมขาย">พร้อมขาย</option>
                       <option value="ขายแล้ว">ขายแล้ว</option>
                     </select>
+                  </div>
+                  <div class="col-md-2">
+                  </div>
+                  <div class="col-md-3 ">
+                    <input type="checkbox"> Red stock </div>
+                </div>
+                <div class="row pt-2">
+                  <div class="col-md-12 text-center">
+                    <a class="btn btn-info">ค้นหา</a>
                   </div>
                 </div>
                 <div class="row">
@@ -221,6 +246,8 @@
                           <td><small class="badge badge-info">ซ่อมบำรุง</small></td>
                           <td>
                             <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
+                            <a class="btn btn-info btn-xs"> โบว์ชัวร์</a>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-print"></i></a>
                             <a class="btn btn-warning btn-xs" href="edit_stock.html"><i class="fa fa-edit"></i></a>
                             <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
                           </td>
@@ -241,6 +268,8 @@
                           <td><small class="badge badge-info">ซ่อมบำรุง</small></td>
                           <td>
                             <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
+                            <a class="btn btn-info btn-xs"> โบว์ชัวร์</a>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-print"></i></a>
                             <a class="btn btn-warning btn-xs" href="edit_stock.html"><i class="fa fa-edit"></i></a>
                             <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
                           </td>
@@ -261,6 +290,8 @@
                           <td><small class="badge badge-primary">พร้อมขาย</small></td>
                           <td>
                             <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
+                            <a class="btn btn-info btn-xs"> โบว์ชัวร์</a>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-print"></i></a>
                             <a class="btn btn-warning btn-xs" href="edit_stock.html"><i class="fa fa-edit"></i></a>
                             <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
                           </td>
@@ -281,6 +312,8 @@
                           <td><small class="badge badge-success">ขายแล้ว</small></td>
                           <td>
                             <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
+                            <a class="btn btn-info btn-xs"> โบว์ชัวร์</a>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-print"></i></a>
                             <a class="btn btn-warning btn-xs" href="edit_stock.html"><i class="fa fa-edit"></i></a>
                             <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
                           </td>
@@ -301,6 +334,8 @@
                           <td><small class="badge badge-warning">ติดจอง</small></td>
                           <td>
                             <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
+                            <a class="btn btn-info btn-xs"> โบว์ชัวร์</a>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-print"></i></a>
                             <a class="btn btn-warning btn-xs" href="edit_stock.html"><i class="fa fa-edit"></i></a>
                             <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
                           </td>

@@ -19,26 +19,6 @@ var menu = [
         link: 'receivecar.html',
         icon: 'ti-car',
 		submenu : [{
-			name: 'รับรถเข้า',
-	        link: 'receivecar.html',
-	        submenu: null
-		},
-		{
-			name: 'ฟอร์มรับรถเข้า',
-	        link: 'add_receivecar.html',
-	        submenu: null
-		},
-		{
-			name: 'สัญญามัดจำ',
-    		link: 'deposit_contract.html',
-    		submenu: null
-		},
-		{
-			name: 'ฟอร์มสัญญามัดจำ',
-    		link: 'add_deposit_contract.html',
-    		submenu: null
-		},
-		{
 			name: 'ข้อตกลงมัดจำรถ used',
     		link: 'deposit.html',
     		submenu: null
@@ -46,6 +26,16 @@ var menu = [
 		{
 			name: 'ฟอร์มข้อตกลงมัดจำรถ used',
 	        link: 'add_deposit.html',
+	        submenu: null
+		},	
+		{
+			name: 'รับรถเข้า',
+	        link: 'receivecar.html',
+	        submenu: null
+		},
+		{
+			name: 'ฟอร์มรับรถเข้า',
+	        link: 'add_receivecar.html',
 	        submenu: null
 		}	
 		]
