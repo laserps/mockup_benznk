@@ -62,16 +62,16 @@ var menu = [
 		]
 	},
 	{
-		name: 'เรียกขอรถ',
+		name: 'Customer request',
 		link: 'request.html',
 		icon: 'ti-comments',
 		submenu: [{
-			name: 'เรียกขอรถ',
+			name: 'Customer request',
 			link: 'request.html',
 			sub: null
 		},
 		{
-			name: 'ฟอร์มเรียกขอรถ',
+			name: 'ฟอร์ม Customer request',
 			link: 'add_request.html',
 			sub: null
 		}
@@ -88,7 +88,7 @@ var menu = [
 		},
 		{
 			name: 'ฟอร์มสัญญามัดจำ',
-			link: 'add_sale_contract.html',
+			link: 'add_sale_contract2.html',
 			submenu: null
 		},
 		{
@@ -135,6 +135,11 @@ var menu = [
 		{
 			name: 'ประเภทของรถ',
     		link: 'type.html',
+    		submenu: null
+		},
+		{
+			name: 'ของแถม',
+    		link: 'free.html',
     		submenu: null
 		},
 		{

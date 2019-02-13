@@ -130,7 +130,7 @@
             <div class="content">
               <div class="row">
                 <div class="col-md-6">
-                  <p class="lead">โบวชัวร์</p>
+                  <p class="lead">โบรชัวร์</p>
                 </div>
               </div>
               <hr>
@@ -184,36 +184,52 @@
                   <div class="tab-content mt-2">
                     <div class="tab-pane fade show active" id="tabone" role="tabpanel">
                       <div class="row pt-4">
-                        <div class="col-md-2 text-right"> Brand </div>
+                        <div class="col-md-2 text-right"> เลขตัวรถ </div>
                         <div class="col-md-3">
-                          <select class="form-control">
-                          </select>
+                          <input class="form-control">
                         </div>
-                        <div class="col-md-2 text-right">Model </div>
-                        <div class="col-md-3">
-                          <select class="form-control">
-                          </select>
+                        <div class="col-md-1">
+                          <a class="btn btn-info"><i class="fa fa-search"></i></a>
                         </div>
                       </div>
                       <div class="row pt-4">
-                        <div class="col-md-2 text-right"> Colour</div>
+                        <div class="col-md-2 text-right"> แบรนด์</div>
                         <div class="col-md-3">
-                          <select class="form-control">
-                          </select>
+                          <input class="form-control text-danger" value="Auto">
+                        </div>
+                        <div class="col-md-2 text-right">รุ่น </div>
+                        <div class="col-md-3">
+                          <input class="form-control text-danger" value="Auto">
+                        </div>
+                      </div>
+                      <div class="row pt-4">
+                        <div class="col-md-2 text-right"> โฉม</div>
+                        <div class="col-md-3">
+                          <input class="form-control text-danger" value="Auto">
                         </div>
                         <div class="col-md-2 text-right">ปี </div>
                         <div class="col-md-3">
-                          <input class="form-control">
+                          <input class="form-control text-danger" value="Auto">
+                        </div>
+                      </div>
+                      <div class="row pt-4">
+                        <div class="col-md-2 text-right"> สีรถ</div>
+                        <div class="col-md-3">
+                          <input class="form-control text-danger" value="Auto">
+                        </div>
+                        <div class="col-md-2 text-right">สีเบาะ</div>
+                        <div class="col-md-3">
+                          <input class="form-control text-danger" value="Auto">
                         </div>
                       </div>
                       <div class="row pt-4">
                         <div class="col-md-2 text-right">เลขไมล์ </div>
                         <div class="col-md-3">
-                          <input class="form-control">
+                          <input class="form-control text-danger" value="Auto">
                         </div>
                         <div class="col-md-2 text-right">วันจดทะเบียน </div>
                         <div class="col-md-3 input-group date" data-provide="datepicker">
-                          <input class="form-control" type="text" value="">
+                          <input class="form-control text-danger" type="text" value="Auto">
                           <div class="input-group-addon">
                             <i class="fa fa-calendar"></i>
                           </div>
@@ -222,30 +238,24 @@
                       <div class="row pt-2">
                         <div class="col-md-2 text-right">ทะเบียน </div>
                         <div class="col-md-3">
-                          <input class="form-control">
+                          <input class="form-control text-danger" value="Auto">
                         </div>
                         <div class="col-md-2 text-right">ชนิดเชื้อเพลิง</div>
                         <div class="col-md-3">
-                          <select class="form-control">
-                          </select>
+                          <input class="form-control text-danger" value="Auto">
                         </div>
                       </div>
                       <div class="row pt-4">
-                        <div class="col-md-2 text-right"> เลขตัวรถ</div>
-                        <div class="col-md-3">
-                          <input class="form-control">
-                        </div>
                         <div class="col-md-2 text-right">เลขเครื่องยนต์ </div>
                         <div class="col-md-3">
-                          <input class="form-control">
+                          <input class="form-control text-danger" value="Auto">
+                        </div>
+                        <div class="col-md-2 text-right"> ประเภทของรถ</div>
+                        <div class="col-md-3">
+                          <input class="form-control text-danger" value="Auto">
                         </div>
                       </div>
                       <div class="row pt-4">
-                        <div class="col-md-2 text-right"> ประเภทของรถ</div>
-                        <div class="col-md-3">
-                          <select class="form-control">
-                          </select>
-                        </div>
                         <div class="col-md-2 text-right">ลำดับเจ้าของ </div>
                         <div class="col-md-3">
                           <input class="form-control">
@@ -261,8 +271,17 @@
                           <input class="form-control">
                         </div>
                       </div>
-                      <br>
-                      <div class="row pt-3">
+                      <div class="row pt-4">
+                        <div class="col-md-2 text-right"> ศูนย์รถ </div>
+                        <div class="col-md-3">
+                          <input class="form-control">
+                        </div>
+                        <div class="col-md-2 text-right"> หมายเหตุ</div>
+                        <div class="col-md-3">
+                          <input class="form-control" style="height:60px;">
+                        </div>
+                      </div>
+                      <div class="row pt3">
                         <div class="col-md-2 ">
                           <h5> Special option </h5>
                         </div>
@@ -280,26 +299,28 @@
                       <br>
                       <div class="row pt-4">
                         <div class="col-md-2">
+                        </div>
+                        <div class="col-md-3 text-left">
                           <b>List</b>
                         </div>
                       </div>
                       <div class="row pt-3">
-                        <div class="col-md-1">
+                        <div class="col-md-2">
                         </div>
                         <div class="col-md-3 text-left"> Exclusive </div>
                       </div>
                       <div class="row pt-3">
-                        <div class="col-md-1">
+                        <div class="col-md-2">
                         </div>
                         <div class="col-md-3 text-left"> LED intelligent light system </div>
                       </div>
                       <div class="row pt-3">
-                        <div class="col-md-1">
+                        <div class="col-md-2">
                         </div>
                         <div class="col-md-3 text-left"> Ambient lightting </div>
                       </div>
                       <div class="row pt-3">
-                        <div class="col-md-1">
+                        <div class="col-md-2">
                         </div>
                         <div class="col-md-3 text-left"> 360 Degree camera </div>
                       </div>
@@ -308,19 +329,19 @@
                     </div>
                     <div class="tab-pane fade" id="tabtwo" role="tabpanel">
                       <div class="row pt-4">
-                        <div class="col-md-2 text-right"> Brand </div>
+                        <div class="col-md-2 text-right"> แบรนด์ </div>
                         <div class="col-md-3">
                           <select class="form-control">
                           </select>
                         </div>
-                        <div class="col-md-2 text-right">Model </div>
+                        <div class="col-md-2 text-right">รุ่น </div>
                         <div class="col-md-3">
                           <select class="form-control">
                           </select>
                         </div>
                       </div>
                       <div class="row pt-4">
-                        <div class="col-md-2 text-right"> Colour</div>
+                        <div class="col-md-2 text-right"> โฉม</div>
                         <div class="col-md-3">
                           <select class="form-control">
                           </select>
@@ -328,6 +349,18 @@
                         <div class="col-md-2 text-right">ปี </div>
                         <div class="col-md-3">
                           <input class="form-control">
+                        </div>
+                      </div>
+                      <div class="row pt-4">
+                        <div class="col-md-2 text-right"> สีรถ</div>
+                        <div class="col-md-3">
+                          <select class="form-control">
+                          </select>
+                        </div>
+                        <div class="col-md-2 text-right">สีเบาะ </div>
+                        <div class="col-md-3">
+                          <select class="form-control">
+                          </select>
                         </div>
                       </div>
                       <div class="row pt-4">
@@ -372,6 +405,16 @@
                           <input class="form-control">
                         </div>
                       </div>
+                      <div class="row pt-4">
+                        <div class="col-md-2 text-right"> ศูนย์รถ </div>
+                        <div class="col-md-3">
+                          <input class="form-control">
+                        </div>
+                        <div class="col-md-2 text-right"> หมายเหตุ</div>
+                        <div class="col-md-3">
+                          <input class="form-control" style="height:60px;">
+                        </div>
+                      </div>
                       <br>
                       <div class="row pt-3">
                         <div class="col-md-2 ">
@@ -391,26 +434,28 @@
                       <br>
                       <div class="row pt-4">
                         <div class="col-md-2">
+                        </div>
+                        <div class="col-md-2 text-left">
                           <b>List</b>
                         </div>
                       </div>
                       <div class="row pt-3">
-                        <div class="col-md-1">
+                        <div class="col-md-2">
                         </div>
                         <div class="col-md-3 text-left"> Exclusive </div>
                       </div>
                       <div class="row pt-3">
-                        <div class="col-md-1">
+                        <div class="col-md-2">
                         </div>
                         <div class="col-md-3 text-left"> LED intelligent light system </div>
                       </div>
                       <div class="row pt-3">
-                        <div class="col-md-1">
+                        <div class="col-md-2">
                         </div>
                         <div class="col-md-3 text-left"> Ambient lightting </div>
                       </div>
                       <div class="row pt-3">
-                        <div class="col-md-1">
+                        <div class="col-md-2">
                         </div>
                         <div class="col-md-3 text-left"> 360 Degree camera </div>
                       </div>
