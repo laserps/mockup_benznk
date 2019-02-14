@@ -55,7 +55,7 @@ var menu = [
 			sub: null
 		},
 		{
-			name: 'ฟอร์มโบวชัวร์',
+			name: 'ฟอร์มเพิ่มรายการ / โบวชัวร์',
 			link: 'add_brochure.html',
 			sub: null
 		}
@@ -73,6 +73,22 @@ var menu = [
 		{
 			name: 'ฟอร์ม Customer request',
 			link: 'add_request.html',
+			sub: null
+		}
+		]
+	},
+	{
+		name: 'Sale request',
+		link: 'sale_request.html',
+		icon: 'ti-comment-alt',
+		submenu: [{
+			name: 'Sale request',
+			link: 'sale_request.html',
+			sub: null
+		},
+		{
+			name: 'ฟอร์ม Sale request',
+			link: 'add_sale_request.html',
 			sub: null
 		}
 		]
@@ -103,7 +119,23 @@ var menu = [
 		}
 		]
 	},
+	{
+		name: 'ใบส่งซ่อม',
+		link: 'repair.html',
+		icon: 'ti-settings',
+		submenu: [{
+			name: 'ใบส่งซ่อม',
+			link: 'repair.html',
+			sub: null
+		},
 		{
+			name: 'ฟอร์มใบส่งซ่อม',
+			link: 'add_repair.html',
+			sub: null
+		}
+		]
+	},
+	{
 		name: 'ข้อมูลพื้นฐาน',
         link: '',
         icon: 'ti-agenda',

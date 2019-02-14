@@ -120,7 +120,7 @@
                 <p class="hidden-lg-up">Settings</p>
               </a>
             </li>
-            <li class="separator hidden-lg-up"></li>
+            <li class="separator hidden-lg-up" style=""></li>
           </ul>
         </div>
       </nav>
@@ -130,66 +130,14 @@
             <div class="content">
               <div class="row">
                 <div class="col-md-6">
-                  <p class="lead">สต๊อกรถยนต์</p>
+                  <p class="lead">Sale request</p>
                 </div>
                 <div class="col-md-6 text-right">
-                  <a class="btn btn-success" href="add_brochure.html"><i class="fa fa-plus"></i> เพิ่มรายการ / โบรชัวร์ </a>
+                  <a class="btn btn-success" href="add_sale_request.html"><i class="fa fa-plus" aria-hidden="true"></i> Sale request</a>
                 </div>
               </div>
-              <hr>
-              <div class="row pb-2">
-                <div class="col-md-4 text-center">
-                  <b>Action </b>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-4 text-center">
-                  <a class="badg badge-primary btn-xs">นำเข้าใหม่</a>
-                  <a class="badg badge-primary btn-xs">ซ่อมบำรุง</a>
-                  <a class="badg badge-primary btn-xs">ติดจอง</a>
-                  <a class="badg badge-primary btn-xs">พร้อมขาย</a>
-                  <a class="badg badge-primary btn-xs">ขายแล้ว</a>
-                </div>
-              </div>
-              <br>
               <hr>
               <div id="datatables_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
-                <div class="row">
-                  <div class="col-md-2 text-right"> สถานะรถ </div>
-                  <div class="col-md-3">
-                    <select class="form-control">
-                      <option></option>
-                      <option>รถเก่า</option>
-                      <option>รถใหม่</option>
-                    </select>
-                  </div>
-                  <div class="col-md-2 text-right"> วันที่รับซื้อเข้ามา </div>
-                  <div class="col-md-3">
-                    <input type="date" class="form-control">
-                  </div>
-                </div>
-                <div class="row pt-3">
-                  <div class="col-md-2 text-right"> สถานะดำเนินงาน </div>
-                  <div class="col-md-3">
-                    <select class="form-control">
-                      <option></option>
-                      <option>นำเข้าใหม่</option>
-                      <option value="ซ่อมบำรุง">ซ่อมบำรุง</option>
-                      <option value="ติดจอง">ติดจอง</option>
-                      <option value="พร้อมขาย">พร้อมขาย</option>
-                      <option value="ขายแล้ว">ขายแล้ว</option>
-                    </select>
-                  </div>
-                  <div class="col-md-2">
-                  </div>
-                  <div class="col-md-3 ">
-                    <input type="checkbox"> Red stock </div>
-                </div>
-                <div class="row pt-2">
-                  <div class="col-md-12 text-center">
-                    <a class="btn btn-info">ค้นหา</a>
-                  </div>
-                </div>
                 <div class="row">
                   <div class=" col-md-6">
                     <div class="dataTables_length" id="datatables_length">
@@ -213,150 +161,108 @@
                     <table class="table">
                       <thead>
                         <tr>
-                          <th><input type="checkbox"></th>
                           <th>ลำดับ</th>
                           <th>วันที่</th>
-                          <th>ชื่อผู้ขายรถยนต์</th>
-                          <th>ชื่อผู้ซื้อรถยนต์</th>
+                          <th>ชื่อพนักงาน</th>
+                          <th>ชื่อผู้เรียกขอ</th>
+                          <th>โทรศัพท์มือถือ</th>
+                          <th>ID Line</th>
+                          <th>ประเภทของรถ</th>
                           <th>ยี่ห้อรถยนต์</th>
                           <th>รุ่น</th>
-                          <th>ปี</th>
                           <th>สี</th>
-                          <th>หมายเลขทะเบียน</th>
-                          <th>หมายเลขตัวรถ</th>
-                          <th>หมายเลขเครื่อง</th>
-                          <th style="width:170px;">สถานะดำเนินงาน</th>
+                          <th>ปี</th>
                           <th>เครื่องมือ</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr>
-                          <td><input type="checkbox"></td>
                           <td>1</td>
                           <td>01/01/2562</td>
+                          <td>วาสนา สุขสมัย</td>
                           <td>นายชลนธี ศรีสุวรรณ</td>
-                          <td>นางสาวจิตรา อรัญพร</td>
+                          <td>090-0000000</td>
+                          <td>WTY1234</td>
+                          <td>รถยนต์นั่งส่วนบุคคลไม่เกิน 7 ที่นั่ง</td>
                           <td>Benz</td>
-                          <td>E200</td>
-                          <td>2013</td>
+                          <td>E230</td>
                           <td>ดำ</td>
-                          <td>สว4545</td>
-                          <td>MRHFD1640AP103716</td>
-                          <td>R18A1AP14491</td>
-                          <td><select class="form-control">
-                              <option value="ซ่อมบำรุง">ซ่อมบำรุง</option>
-                              <option>นำเข้าใหม่</option>
-                              <option>ติดจอง</option>
-                              <option>พร้อมขาย</option>
-                              <option>ขายแล้ว</option>
-                            </select></td>
+                          <td>2014</td>
                           <td>
                             <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
-                            <a class="btn btn-success btn-xs"><i class="fa fa-print"></i></a>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
                             <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
                           </td>
                         </tr>
                         <tr>
-                          <td><input type="checkbox"></td>
                           <td>2</td>
                           <td>02/01/2562</td>
+                          <td>วาสนา สุขสมัย</td>
                           <td>นายต่อพงษ์ วงศ์พานิช</td>
-                          <td>นายพุฒเดช สุขอุดม</td>
+                          <td>090-4567895</td>
+                          <td>tor12</td>
+                          <td>รถยนต์นั่งส่วนบุคคลไม่เกิน 7 ที่นั่ง</td>
                           <td>Benz</td>
-                          <td>E300</td>
-                          <td>2014</td>
+                          <td>E200</td>
                           <td>แดง</td>
-                          <td>กด1212</td>
-                          <td>MRHFD1640AP103716</td>
-                          <td>R18A1AP14491</td>
-                          <td><select class="form-control">
-                              <option>นำเข้าใหม่</option>
-                              <option>ซ่อมบำรุง</option>
-                              <option>ติดจอง</option>
-                              <option>พร้อมขาย</option>
-                              <option>ขายแล้ว</option>
-                            </select></td>
+                          <td>2013</td>
                           <td>
                             <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
-                            <a class="btn btn-success btn-xs"><i class="fa fa-print"></i></a>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
                             <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
                           </td>
                         </tr>
                         <tr>
-                          <td><input type="checkbox"></td>
                           <td>3</td>
                           <td>02/01/2562</td>
+                          <td>วาสนา สุขสมัย</td>
                           <td> นายสนั่น รักขุมแก้ว </td>
-                          <td>นายพรฤกษ์ อุยจาด</td>
+                          <td>099-8595658</td>
+                          <td>wertyu</td>
+                          <td>รถยนต์นั่งส่วนบุคคลไม่เกิน 7 ที่นั่ง</td>
                           <td>Benz </td>
-                          <td>C220</td>
-                          <td>2013</td>
+                          <td>A180</td>
                           <td>ดำ</td>
-                          <td>พว4785</td>
-                          <td>MRHFD1640AP103716</td>
-                          <td>R18A1AP14491</td>
-                          <td><select class="form-control">
-                              <option>ติดจอง</option>
-                              <option>นำเข้าใหม่</option>
-                              <option>ซ่อมบำรุง</option>
-                              <option>พร้อมขาย</option>
-                              <option>ขายแล้ว</option>
-                            </select></td>
+                          <td>2014</td>
                           <td>
                             <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
-                            <a class="btn btn-success btn-xs"><i class="fa fa-print"></i></a>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
                             <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
                           </td>
                         </tr>
                         <tr>
-                          <td><input type="checkbox"></td>
                           <td>4</td>
                           <td>04/01/2562</td>
+                          <td>สมใจ มั่นหมาย</td>
                           <td>นางสาวน้ำผึ้ง เหนียวแก้ว </td>
-                          <td>นางสาวขวัญแก้ว คุ้มได้อยู่</td>
+                          <td>099-8565225</td>
+                          <td>n1234</td>
+                          <td>รถยนต์นั่งส่วนบุคคลไม่เกิน 7 ที่นั่ง</td>
                           <td>Benz</td>
-                          <td>C200</td>
-                          <td>2014</td>
+                          <td>C150</td>
                           <td>ขาว</td>
-                          <td>วล1125</td>
-                          <td>MRHFD1640AP103716</td>
-                          <td>R18A1AP14491</td>
-                          <td><select class="form-control">
-                              <option>พร้อมขาย</option>
-                              <option>นำเข้าใหม่</option>
-                              <option>ซ่อมบำรุง</option>
-                              <option>ติดจอง</option>
-                              <option>ขายแล้ว</option>
-                            </select></td>
+                          <td>2013</td>
                           <td>
                             <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
-                            <a class="btn btn-success btn-xs"><i class="fa fa-print"></i></a>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
                             <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
                           </td>
                         </tr>
                         <tr>
-                          <td><input type="checkbox"></td>
                           <td>5</td>
                           <td>05/01/2562</td>
+                          <td>สมใจ มั่นหมาย</td>
                           <td>นางสาวนิรมล พุฒเจริญ</td>
-                          <td>นางสาวจงศิริ ร่มพิกุล</td>
+                          <td>090-4562220</td>
+                          <td>nuramon_1</td>
+                          <td>รถยนต์นั่งส่วนบุคคลไม่เกิน 7 ที่นั่ง</td>
                           <td>Benz</td>
-                          <td>E300</td>
-                          <td>2015</td>
+                          <td>A250</td>
                           <td>ขาว</td>
-                          <td>กพ6569</td>
-                          <td>MRHFD1640AP103716</td>
-                          <td>R18A1AP14491</td>
-                          <td><select class="form-control">
-                              <option>ขายแล้ว</option>
-                              <option>นำเข้าใหม่</option>
-                              <option>ซ่อมบำรุง</option>
-                              <option>ติดจอง</option>
-                              <option>พร้อมขาย</option>
-                            </select></td>
+                          <td>2013</td>
                           <td>
                             <a class="btn btn-info btn-xs"><i class="fa fa-search"></i></a>
-                            <a class="btn btn-success btn-xs"><i class="fa fa-print"></i></a>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
                             <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
                           </td>
                         </tr>
@@ -431,8 +337,8 @@
     </div>
   </div>
   <script>
-    var main_menu = "stock.html";
-    var current_page = "stock.html";
+    var main_menu = "sale_request.html";
+    var current_page = "sale_request.html";
   </script>
   <!--   Core JS Files   -->
   <script src="assets/vendors/jquery-3.1.1.min.js" type="text/javascript"></script>
