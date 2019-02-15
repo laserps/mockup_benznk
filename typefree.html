@@ -130,126 +130,106 @@
             <div class="content">
               <div class="row">
                 <div class="col-md-6">
-                  <p class="lead">เพิ่มรายการส่งซ่อม</p>
+                  <p class="lead">ประเภทอุปกรณ์</p>
+                </div>
+                <div class="col-md-6 text-right">
+                  <a class="btn btn-success" href="add_typefree.html"><i class="fa fa-plus" aria-hidden="true"></i> ประเภทอุปกรณ์</a>
                 </div>
               </div>
               <hr>
-              <div class="row pt-4">
-                <div class="col-md-2 text-right"> เลขตัวรถ </div>
-                <div class="col-md-3">
-                  <input class="form-control">
+              <div id="datatables_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
+                <div class="row">
+                  <div class=" col-md-6">
+                    <div class="dataTables_length" id="datatables_length">
+                      <label class="form-group">Show <select name="datatables_length" aria-controls="datatables" class="form-control input-sm">
+                          <option value="10">10</option>
+                          <option value="25">25</option>
+                          <option value="50">50</option>
+                          <option value="-1">All</option>
+                        </select> entries</label>
+                    </div>
+                  </div>
+                  <div class="col col-md-6">
+                    <div id="datatables_filter" class="dataTables_filter">
+                      <label class="form-group">
+                        <input type="search" class="form-control input-sm" placeholder="Search records" aria-controls="datatables"> </label>
+                    </div>
+                  </div>
                 </div>
-                <div class="col-md-1">
-                  <a class="btn btn-info"><i class="fa fa-search"></i></a>
+                <div class="row">
+                  <div class="col-md-12">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th>ลำดับ</th>
+                          <th>ประเภทอุปกรณ์</th>
+                          <th>เครื่องมือ</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1</td>
+                          <td>ประจำรถ</td>
+                          <td>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
+                            <a class="btn btn-danger btn-xs"><i class="fa fa-window-close"></i> </a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2</td>
+                          <td>ของแถม</td>
+                          <td>
+                            <a class="btn btn-warning btn-xs"><i class="fa fa-edit"></i></a>
+                            <a class="btn btn-danger btn-xs"><i class="fa fa-window-close"></i> </a>
+                          </td>
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td colspan="23"></td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
                 </div>
-              </div>
-              <div class="row pt-4">
-                <div class="col-md-2 text-right"> วันที่</div>
-                <div class="col-md-3">
-                  <input class="form-control" type="date">
-                </div>
-                <div class="col-md-2 text-right"> ชื่อลูกค้า </div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-              </div>
-              <div class="row pt-4">
-                <div class="col-md-2 text-right"> แบรนด์</div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-                <div class="col-md-2 text-right">รุ่น </div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-              </div>
-              <div class="row pt-4">
-                <div class="col-md-2 text-right"> โฉม</div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-                <div class="col-md-2 text-right">ปี </div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-              </div>
-              <div class="row pt-4">
-                <div class="col-md-2 text-right"> สีรถ</div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-                <div class="col-md-2 text-right">สีเบาะ</div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-              </div>
-              <div class="row pt-4">
-                <div class="col-md-2 text-right">เลขไมล์ </div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-                <div class="col-md-2 text-right">วันจดทะเบียน </div>
-                <div class="col-md-3 ">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-              </div>
-              <div class="row pt-4">
-                <div class="col-md-2 text-right">ทะเบียน </div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-                <div class="col-md-2 text-right">ชนิดเชื้อเพลิง</div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-              </div>
-              <div class="row pt-4">
-                <div class="col-md-2 text-right">เลขเครื่องยนต์ </div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-                <div class="col-md-2 text-right"> ประเภทของรถ</div>
-                <div class="col-md-3">
-                  <input class="form-control text-danger" value="Auto">
-                </div>
-              </div>
-              <div class="row pt-4">
-                <div class="col-md-2 text-right"> รายการส่งซ่อม </div>
-                <div class="col-md-3">
-                  <input class="form-control">
-                </div>
-                <div class="col-md-1">
-                  <a class="btn btn-success "><i class="fa fa-plus"></i></a>
-                </div>
-              </div>
-              <br>
-              <div class="row">
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-3 text-left">
-                  <b>List</b>
-                </div>
-              </div>
-              <div class="row pt-2">
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-3 text-left"> ถ่ายน้ำมันเครื่อง </div>
-              </div>
-              <div class="row pt-2">
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-3 text-left"> เบรคแตก </div>
-              </div>
-              <div class="row pt-2">
-                <div class="col-md-2">
-                </div>
-                <div class="col-md-3 text-left"> กระจกแตก </div>
-              </div>
-              <br><br>
-              <hr>
-              <div class="row">
-                <div class="col-md-12 text-right">
-                  <a class="btn btn-success" href="repair.html">บันทึก</a>
+                <div class="row">
+                  <div class="col-sm-12 col-md-5">
+                    <div class="dataTables_info" id="datatables_info" role="status" aria-live="polite">Showing 1 to 10 of 40 entries</div>
+                  </div>
+                  <div class="col-sm-12 col-md-7">
+                    <div class="dataTables_paginate paging_full_numbers pull-right" id="datatables_paginate">
+                      <ul class="pagination">
+                        <li class="paginate_button page-item first disabled" id="datatables_first">
+                          <a href="#" aria-controls="datatables" data-dt-idx="0" tabindex="0" class="page-link">First</a>
+                        </li>
+                        <li class="paginate_button page-item previous disabled" id="datatables_previous">
+                          <a href="#" aria-controls="datatables" data-dt-idx="1" tabindex="0" class="page-link">Previous</a>
+                        </li>
+                        <li class="paginate_button page-item active">
+                          <a href="#" aria-controls="datatables" data-dt-idx="2" tabindex="0" class="page-link">1</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="3" tabindex="0" class="page-link">2</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="4" tabindex="0" class="page-link">3</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="5" tabindex="0" class="page-link">4</a>
+                        </li>
+                        <li class="paginate_button page-item next" id="datatables_next">
+                          <a href="#" aria-controls="datatables" data-dt-idx="6" tabindex="0" class="page-link">Next</a>
+                        </li>
+                        <li class="paginate_button page-item last" id="datatables_last">
+                          <a href="#" aria-controls="datatables" data-dt-idx="7" tabindex="0" class="page-link">Last</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -275,7 +255,7 @@
   </div>
   <script>
     var main_menu = "";
-    var current_page = "repair.html";
+    var current_page = "typefree.html";
   </script>
   <!--   Core JS Files   -->
   <script src="assets/vendors/jquery-3.1.1.min.js" type="text/javascript"></script>

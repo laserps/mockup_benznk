@@ -50,11 +50,6 @@ var menu = [
 			sub: null
 		},
 		{
-			name: 'ปรับสถานะสต๊อกรถยนต์',
-			link: 'edit_stock.html',
-			sub: null
-		},
-		{
 			name: 'ฟอร์มเพิ่มรายการ / โบวชัวร์',
 			link: 'add_brochure.html',
 			sub: null
@@ -135,6 +130,12 @@ var menu = [
 		}
 		]
 	},
+	{ 	name: 'จัดการป้ายแดง',
+		link: 'red.html',
+		icon: 'ti-clipboard',
+		sub: null
+
+	},
 	{
 		name: 'ข้อมูลพื้นฐาน',
         link: '',
@@ -170,7 +171,12 @@ var menu = [
     		submenu: null
 		},
 		{
-			name: 'ของแถม',
+			name: 'ประเภทอุปกรณ์',
+    		link: 'typefree.html',
+    		submenu: null
+		},
+		{
+			name: 'อุปกรณ์',
     		link: 'free.html',
     		submenu: null
 		},
