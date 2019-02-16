@@ -15,9 +15,41 @@ var menu = [
 
 	},
 	{
+		name: 'Customer request',
+		link: 'request.html',
+		icon: 'ti-comments',
+		submenu: [{
+			name: 'Customer request',
+			link: 'request.html',
+			sub: null
+		},
+		{
+			name: 'ฟอร์ม Customer request',
+			link: 'add_request.html',
+			sub: null
+		}
+		]
+	},
+	{
+		name: 'Sale request',
+		link: 'sale_request.html',
+		icon: 'ti-comment-alt',
+		submenu: [{
+			name: 'Sale request',
+			link: 'sale_request.html',
+			sub: null
+		},
+		{
+			name: 'ฟอร์ม Sale request',
+			link: 'add_sale_request.html',
+			sub: null
+		}
+		]
+	},
+	{
 		name: 'การซื้อรถ',
         link: 'receivecar.html',
-        icon: 'ti-car',
+        icon: 'ti-wallet',
 		submenu : [{
 			name: 'ข้อตกลงมัดจำรถ used',
     		link: 'deposit.html',
@@ -52,38 +84,6 @@ var menu = [
 		{
 			name: 'ฟอร์มเพิ่มรายการ / โบวชัวร์',
 			link: 'add_brochure.html',
-			sub: null
-		}
-		]
-	},
-	{
-		name: 'Customer request',
-		link: 'request.html',
-		icon: 'ti-comments',
-		submenu: [{
-			name: 'Customer request',
-			link: 'request.html',
-			sub: null
-		},
-		{
-			name: 'ฟอร์ม Customer request',
-			link: 'add_request.html',
-			sub: null
-		}
-		]
-	},
-	{
-		name: 'Sale request',
-		link: 'sale_request.html',
-		icon: 'ti-comment-alt',
-		submenu: [{
-			name: 'Sale request',
-			link: 'sale_request.html',
-			sub: null
-		},
-		{
-			name: 'ฟอร์ม Sale request',
-			link: 'add_sale_request.html',
 			sub: null
 		}
 		]
@@ -151,9 +151,14 @@ var menu = [
 	        submenu: null
 		},
 		{
-			name: 'สี',
+			name: 'สีรถ',
     		link: 'colour.html',
     		submenu: null
+		},
+		{
+			name: 'สีเบาะ',
+			link: 'color_pad.html',
+			submenu: null
 		},
 		{
 			name: 'Special option',
@@ -166,18 +171,13 @@ var menu = [
     		submenu: null
 		},
 		{
+			name: 'ป้ายแดง',
+			link: 'redlabel.html',
+			submenu: null
+		},
+		{
 			name: 'ประเภทของรถ',
     		link: 'type.html',
-    		submenu: null
-		},
-		{
-			name: 'ประเภทอุปกรณ์',
-    		link: 'typefree.html',
-    		submenu: null
-		},
-		{
-			name: 'อุปกรณ์',
-    		link: 'free.html',
     		submenu: null
 		},
 		{
@@ -186,8 +186,23 @@ var menu = [
 	        submenu: null
 		}	
 		]
+	},
+	{
+		name: 'อุรปกรณ์ของรถ',
+		link: '',
+		icon: 'ti-car',
+		submenu: [{
+			name: 'อุปกรณ์ประจำรถ',
+			link: 'car.html',
+			submenu: null
+		},
+		{
+			name: 'ของแถม',
+			link: 'free',
+			submenu: null
+		}
+		]
 	}
-
 ];
 var data = "";
 
