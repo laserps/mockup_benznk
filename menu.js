@@ -171,11 +171,6 @@ var menu = [
     		submenu: null
 		},
 		{
-			name: 'ป้ายแดง',
-			link: 'redlabel.html',
-			submenu: null
-		},
-		{
 			name: 'ประเภทของรถ',
     		link: 'type.html',
     		submenu: null
