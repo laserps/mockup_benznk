@@ -103,6 +103,16 @@ var menu = [
 		link: 'sale_contract.html',
 		icon: 'ti-files',
 		submenu : [{
+			name: 'ข้อตกลงมัดจำ',
+    		link: 'sale_deposit.html',
+    		submenu: null
+		},
+		{
+			name: 'ฟอร์มข้อตกลงมัดจำ',
+	        link: 'add_sale_deposit.html',
+	        submenu: null
+		},
+		{
 			name: 'สัญญามัดจำ',
 			link: 'sale_contract.html',
 			submenu: null
