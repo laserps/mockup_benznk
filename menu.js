@@ -213,7 +213,7 @@ var menu = [
 		},
 		{
 			name: 'ของแถม',
-			link: 'free',
+			link: 'free.html',
 			submenu: null
 		}
 		]
