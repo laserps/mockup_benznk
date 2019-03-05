@@ -67,7 +67,7 @@ var menu = [
 		},
 		{
 			name: 'ฟอร์มสัญญามัดจำ',
-	        link: 'add_deposit_contract.html',
+	        link: 'add_receivecar.html',
 	        submenu: null
 		},	
 		// {
@@ -120,6 +120,11 @@ var menu = [
 		{
 			name: 'ฟอร์มสัญญามัดจำ',
 			link: 'add_sale_contract2.html',
+			submenu: null
+		},
+		{
+			name: 'ใบค่าใช้จ่าย',
+			link: 'add_expenses.html',
 			submenu: null
 		},
 		{
@@ -186,7 +191,7 @@ var menu = [
     		submenu: null
 		},
 		{
-			name: 'ชนิดเชื้อเพลง',
+			name: 'ชนิดเชื้อเพลิง',
     		link: 'fuel.html',
     		submenu: null
 		},

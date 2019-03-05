@@ -41,14 +41,6 @@
             <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div>
           </div>
         </ul>
-        <ul class="nav flex-column ps-container ps-theme-default" data-ps-id="70c98e23-dd94-57dc-c3cf-1bfa068c2d44">
-          <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 3px;">
-            <div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div>
-          </div>
-          <div class="ps-scrollbar-y-rail" style="top: 0px; right: 3px;">
-            <div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div>
-          </div>
-        </ul>
       </div>
     </div>
     <div class="main-panel ps-container ps-theme-default" data-ps-id="2707ddd2-7ec0-87a2-5ed3-378f2b253fd8">
@@ -155,7 +147,7 @@
               <hr>
               <div id="datatables_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
                 <div class="row">
-                  <div class="col-md-2 text-right"> สถานะรถ </div>
+                  <div class="col-md-2 text-right"> ประเภทรถ </div>
                   <div class="col-md-3">
                     <select class="form-control">
                       <option></option>
@@ -231,12 +223,13 @@
                           <th>หมายเลขทะเบียน</th>
                           <th>หมายเลขตัวรถ</th>
                           <th>หมายเลขเครื่อง</th>
+                          <th>ประเภทรถ</th>
                           <th style="width:170px;">สถานะดำเนินงาน</th>
                           <th>เครื่องมือ</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr>
+                        <tr style="background-color: #fc2343;">
                           <td><input type="checkbox"></td>
                           <td>1</td>
                           <td>01/01/2562</td>
@@ -249,6 +242,7 @@
                           <td>สว4545</td>
                           <td>MRHFD1640AP103716</td>
                           <td>R18A1AP14491</td>
+                          <td>รถเก่า</td>
                           <td><select class="form-control">
                               <option value="ซ่อมบำรุง">ซ่อมบำรุง</option>
                               <option>นำเข้าใหม่</option>
@@ -263,7 +257,7 @@
                             <a class="btn btn-danger btn-xs"><i class="fa fa-trash"></i> </a>
                           </td>
                         </tr>
-                        <tr>
+                        <tr style="background-color: #fc2343;">
                           <td><input type="checkbox"></td>
                           <td>2</td>
                           <td>02/01/2562</td>
@@ -276,6 +270,7 @@
                           <td>กด1212</td>
                           <td>MRHFD1640AP103716</td>
                           <td>R18A1AP14491</td>
+                          <td>รถเก่า</td>
                           <td><select class="form-control">
                               <option>นำเข้าใหม่</option>
                               <option>ซ่อมบำรุง</option>
@@ -303,6 +298,7 @@
                           <td>พว4785</td>
                           <td>MRHFD1640AP103716</td>
                           <td>R18A1AP14491</td>
+                          <td>รถเก่า</td>
                           <td><select class="form-control">
                               <option>ติดจอง</option>
                               <option>นำเข้าใหม่</option>
@@ -330,6 +326,7 @@
                           <td>วล1125</td>
                           <td>MRHFD1640AP103716</td>
                           <td>R18A1AP14491</td>
+                          <td>รถใหม่</td>
                           <td><select class="form-control">
                               <option>พร้อมขาย</option>
                               <option>นำเข้าใหม่</option>
@@ -357,6 +354,7 @@
                           <td>กพ6569</td>
                           <td>MRHFD1640AP103716</td>
                           <td>R18A1AP14491</td>
+                          <td>รถใหม่</td>
                           <td><select class="form-control">
                               <option>ขายแล้ว</option>
                               <option>นำเข้าใหม่</option>
