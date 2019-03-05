@@ -158,7 +158,22 @@ var menu = [
 	{ 	name: 'จัดการป้ายแดง',
 		link: 'red.html',
 		icon: 'ti-clipboard',
-		sub: null
+		submenu: [{
+			name: 'จัดการป้ายแดง',
+			link: 'red.html',
+			sub: null
+		},
+		{
+			name: 'ฟอร์มเพิ่มป้ายแดง',
+			link: 'add_redlabel.html',
+			sub: null
+		},
+		{
+			name: 'ฟอร์มจัดการข้อมูลป้ายแดง',
+			link: 'add_red.html',
+			sub: null
+		}
+		]
 
 	},
 	{
