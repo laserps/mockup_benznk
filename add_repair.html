@@ -133,7 +133,7 @@
                 </div>
                 <div class="col-md-2 text-right"> ชื่อพนักงาน</div>
                 <div class="col-md-3">
-                  <input class="form-control">
+                  <select class="form-control"></select>
                 </div>
               </div>
               <div class="row pt-4">
@@ -141,39 +141,46 @@
                 <div class="col-md-3">
                   <select class="form-control"></select>
                 </div>
-                <div class="col-md-2 text-right"> หมายเลขทะเบียน </div>
-                <div class="col-md-3">
-                  <input class="form-control">
-                </div>
-              </div>
-              <div class="row pt-4">
                 <div class="col-md-2 text-right"> ส่งซ่อมในนามบริษัท </div>
                 <div class="col-md-3">
                   <input class="form-control">
                 </div>
-                <div class="col-md-2 text-right"> ยี่ห้อ </div>
-                <div class="col-md-3">
-                  <input class="form-control">
-                </div>
               </div>
               <div class="row pt-4">
-                <div class="col-md-2 text-right"> รุ่น </div>
-                <div class="col-md-3">
-                  <input class="form-control">
-                </div>
                 <div class="col-md-2 text-right"> หมายเลขตัวถัง </div>
                 <div class="col-md-3">
                   <input class="form-control">
                 </div>
+                <div class="col-md-1"><button class="btn btn-info"><i class="fa fa-search"></i></button></div>
               </div>
               <div class="row pt-4">
+                <div class="col-md-2 text-right"> ยี่ห้อ </div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
+                </div>
+                <div class="col-md-2 text-right"> รุ่น </div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
+                </div>
+              </div>
+              <div class="row pt-4">
+                <div class="col-md-2 text-right"> สีรถ </div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
+                </div>
+                <div class="col-md-2 text-right"> สีเบาะ </div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
+                </div>
+              </div>
+              <div class="row pt-4">
+                 <div class="col-md-2 text-right"> หมายเลขทะเบียน </div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
+                </div>
                 <div class="col-md-2 text-right"> หมายเลขเครื่อง </div>
                 <div class="col-md-3">
-                  <input class="form-control">
-                </div>
-                <div class="col-md-2 text-right"> สี </div>
-                <div class="col-md-3">
-                  <input class="form-control">
+                  <input class="form-control text-danger" value="Auto">
                 </div>
               </div>
               <div class="row pt-4">
@@ -226,9 +233,9 @@
               <div class="row pt-4">
                 <div class="col-md-2 text-right"> ป้ายทะเบียนจริง </div>
                 <div class="col-md-2">
-                  <input type="checkbox"> ติดแล้ว </div>
+                  <input type="radio" name="pad"> ติดแล้ว </div>
                 <div class="col-md-2">
-                  <input type="checkbox"> ยังไม่ติด </div>
+                  <input type="radio" name="pad"> ยังไม่ติด </div>
               </div>
               <br>
               <hr>
@@ -276,7 +283,7 @@
                 <div class="col-md-3">
                   <input class="form-control">
                 </div>
-                <div class="col-md-2 text-right"> วันที่ </div>
+                <div class="col-md-2 text-right"> วันที่ Sale ที่แจ้งซ่อม</div>
                 <div class="col-md-3">
                   <input class="form-control" type="date">
                 </div>
@@ -286,7 +293,7 @@
                 <div class="col-md-3">
                   <input class="form-control">
                 </div>
-                <div class="col-md-2 text-right"> วันที่ </div>
+                <div class="col-md-2 text-right"> วันที่อนุมัติ </div>
                 <div class="col-md-3">
                   <input class="form-control" type="date">
                 </div>
@@ -303,7 +310,7 @@
                 <div class="col-md-3">
                   <input class="form-control">
                 </div>
-                <div class="col-md-2 text-right"> วันที่ </div>
+                <div class="col-md-2 text-right"> วันที่ตรวจสอบ  Final </div>
                 <div class="col-md-3">
                   <input class="form-control" type="date">
                 </div>
@@ -313,7 +320,7 @@
                 <div class="col-md-3">
                   <input class="form-control">
                 </div>
-                <div class="col-md-2 text-right"> วันที่ </div>
+                <div class="col-md-2 text-right"> วันที่ Sale ตรวจสอบ </div>
                 <div class="col-md-3">
                   <input class="form-control" type="date">
                 </div>
@@ -323,7 +330,7 @@
                 <div class="col-md-3">
                   <input class="form-control">
                 </div>
-                <div class="col-md-2 text-right"> วันที่ </div>
+                <div class="col-md-2 text-right"> วันที่ Admin ตรวจสอบ </div>
                 <div class="col-md-3">
                   <input class="form-control" type="date">
                 </div>
@@ -333,7 +340,7 @@
                 <div class="col-md-3">
                   <input class="form-control">
                 </div>
-                <div class="col-md-2 text-right"> วันที่ </div>
+                <div class="col-md-2 text-right"> วันที่หัวหน้าช่าง/ผจก.ศูนย์ ตรวจสอบ</div>
                 <div class="col-md-3">
                   <input class="form-control" type="date">
                 </div>
