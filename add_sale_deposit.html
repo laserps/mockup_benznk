@@ -127,62 +127,52 @@
               </div>
               <hr>
               <div id="datatables_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
-                <div class="row pt-2">
-                  <div class="col-md-2 text-right">
-                    วันที่
-                  </div>
-                  <div class="col-md-3">
-                    <input class="form-control" type="date" name="">
-                  </div>
-                  <div class="col-md-2 text-right">
-                    ยี่ห้อ
-                  </div>
-                  <div class="col-md-3">
-                    <select class="form-control" type="" name=""></select>
-                  </div>
+                <h5>ข้อมูลรถ</h5>
+                <div class="row">
+                  <div class="col-md-2 text-right">วันที่</div>
+                  <div class="col-md-3"><input type="date" name="" class="form-control"></div>
                 </div>
-                <div class="row pt-3">
-                  <div class="col-md-2 text-right">
-                    รุ่น
-                  </div>
-                  <div class="col-md-3">
-                    <select class="form-control" type="" name=""></select>
-                  </div>
-                  <div class="col-md-2 text-right">
-                    ปี
-                  </div>
-                  <div class="col-md-3">
-                    <input class="form-control" type="" name="">
-                  </div>
+              <div class="row pt-4">
+                <div class="col-md-2 text-right">เลขตัวรถ</div>
+                <div class="col-md-3">
+                  <input class="form-control">
                 </div>
-                <div class="row pt-3">
-                  <div class="col-md-2 text-right">
-                    สีรถ
-                  </div>
-                  <div class="col-md-3">
-                    <select class="form-control" type="" name=""></select>
-                  </div>
-                  <div class="col-md-2 text-right">
-                    สีเบาะ
-                  </div>
-                  <div class="col-md-3">
-                    <select class="form-control" type="" name=""></select>
-                  </div>
+                <div class="col-md-1"><button class="btn btn-info"><i class="fa fa-search"></i></button></div>
+                 <div class="col-md-1 text-right">หมายเลขเครื่อง</div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
                 </div>
-                <div class="row pt-3">
-                  <div class="col-md-2 text-right">
-                    เลขทะเบียน
-                  </div>
-                  <div class="col-md-3">
-                    <input class="form-control" type="" name="">
-                  </div>
-                  <div class="col-md-2 text-right">
-                    เลขตัวถัง
-                  </div>
-                  <div class="col-md-3">
-                    <input class="form-control" type="" name="">
-                  </div>
+              </div>
+              <div class="row pt-4">
+                <div class="col-md-2 text-right">รถยนต์ยี่ห้อ</div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
                 </div>
+                <div class="col-md-2 text-right">รุ่น</div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
+                </div>
+              </div>
+              <div class="row pt-4">
+                <div class="col-md-2 text-right">สีรถ</div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
+                </div>
+                <div class="col-md-2 text-right">สีเบาะ</div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
+                </div>
+              </div>
+              <div class="row pt-4">
+                <div class="col-md-2 text-right">ปี</div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
+                </div>
+                <div class="col-md-2 text-right">หมายเลขทะเบียน</div>
+                <div class="col-md-3">
+                  <input class="form-control text-danger" value="Auto">
+                </div>
+              </div>
                 <div class="row pt-3">
                   <div class="col-md-2 text-right">
                     ราคา
@@ -206,10 +196,10 @@
                 <div class="row pt-3">
                   <div class="col-md-2"></div>
                   <div class="col-md-1">
-                    <input type="checkbox" name="sale"> ซื้อสด
+                    <input type="radio" name="sale"> ซื้อสด
                   </div>
                   <div class="col-md-1">
-                    <input type="checkbox" name="sale"> จัด F/N จำนวน
+                    <input type="radio" name="sale"> จัด F/N จำนวน
                   </div>
                   <div class="col-md-1">
                     <input class="form-control" type="" name="" style="height:30px;">
@@ -277,8 +267,12 @@
                     <input type="radio" name="sale"> ผู้ขายชำระ
                   </div>
                 </div>
-                <div class="row pt-5">
-                  <div class="col-md-1 text-right">รับประกัน</div>
+                <hr>
+                <h5>การรับประกัน</h5>
+                <div class="row ">
+                  <div class="col-md-2 text-right">
+                    <input type="radio" name="f"> รับประกัน
+                  </div>
                   <div class="col-md-1">
                     <input class="form-control" type="" name="" style="height: 30px;">
                   </div>
@@ -288,7 +282,11 @@
                     <input class="form-control" type="" name="" style="height: 30px;">
                   </div>
                   <div class="col-md-0">กิโลเมตร</div>
-                  <div class="col-md-2 text-right">รับประกัน</div>
+                </div>
+                <div class="row pt-4">
+                  <div class="col-md-2 text-right">
+                    <input type="radio" name="f"> รับประกัน
+                  </div>
                   <div class="col-md-1">
                     <input class="form-control" type="" name="" style="height: 30px;">
                   </div>
@@ -299,7 +297,7 @@
                   </div>
                   <div class="col-md-0">กิโลเมตร</div>
                 </div>
-                <div class="row pt-4">
+                <div class="row pt-5">
                   <div class="col-md-2 text-right">WARRANTY MBTH ถึง</div>
                   <div class="col-md-3">
                     <input class="form-control" type="" name="">
@@ -432,7 +430,7 @@
                   <div class="col-md-2"></div>
                   <div class="col-md-2"><b>รวมเป็นเงิน</b></div>
                   <div class="col-md-1">
-                    <input class="form-control" type="" name="" style="height: 30px;">
+                    <input class="form-control text-danger" type="" name="" style="height: 30px;" value="Auto">
                   </div>
                   <div class="col-md-1">บาท</div>
                 </div>

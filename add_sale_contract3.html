@@ -789,51 +789,6 @@
                     </div>
                   </div>
                   <hr>
-                  <div class="row pt-3">
-                    <div class="col-md-2 text-right"> ที่อยู่ในการจัดส่งเอกสาร </div>
-                    <div class="col-md-3"> <input type="checkbox"> ตามบัตรประชาชน </div>
-                  </div>
-                  <div class="row pt-4">
-                    <div class="col-md-2 text-right"> ที่อยู่ เลขที่</div>
-                    <div class="col-md-2">
-                      <input class="form-control">
-                    </div>
-                    <div class="col-md-1 text-right">หมู่</div>
-                    <div class="col-md-1">
-                      <input class="form-control">
-                    </div>
-                    <div class="col-md-1 text-right">ซอย</div>
-                    <div class="col-md-3">
-                      <input class="form-control">
-                    </div>
-                  </div>
-                  <div class="row pt-4">
-                    <div class="col-md-2 text-right">ถนน</div>
-                    <div class="col-md-3">
-                      <input class="form-control">
-                    </div>
-                    <div class="col-md-2 text-right">แขวง/ตำบล</div>
-                    <div class="col-md-3">
-                      <input class="form-control">
-                    </div>
-                  </div>
-                  <div class="row pt-4">
-                    <div class="col-md-2 text-right">เขต/อำเภอ</div>
-                    <div class="col-md-3">
-                      <input class="form-control">
-                    </div>
-                    <div class="col-md-2 text-right">จังหวัด</div>
-                    <div class="col-md-3">
-                      <input class="form-control">
-                    </div>
-                  </div>
-                  <div class="row pt-4">
-                    <div class="col-md-2 text-right"> รหัสไปรษณีย์ </div>
-                    <div class="col-md-3">
-                      <input class="form-control">
-                    </div>
-                  </div>
-                  <hr>
                  <h5>ข้อมูลรถที่ขาย</h5>
                   <div class="row">
                     <div class="col-md-2 text-right">วันที่</div>
@@ -881,7 +836,6 @@
                     </div>
                   </div>
                   <hr>
-                  <h5>ข้อมูลการชำระเงิน</h5>
                   <div class="row pt-4">
                     <div class="col-md-2 text-right">ราคารถเป็นเงิน</div>
                     <div class="col-md-2">
@@ -904,7 +858,7 @@
                   <div class="row pt-4">
                     <div class="col-md-2 text-right"> โดยรับมัดจำเป็น </div>
                     <div class="col-md-1">
-                      <input type="radio" name="pay2"> เงินสด จำนวน</div>
+                      <input type="checkbox"> เงินสด จำนวน</div>
                     <div class="col-md-2">
                       <input class="form-control" style="height:30px;">
                     </div>
@@ -914,7 +868,7 @@
                     <div class=" col-md-2">
                     </div>
                     <div class="col-md-1">
-                      <input type="radio" name="pay2"> โอน ธนาคาร </div>
+                      <input type="checkbox"> โอน ธนาคาร </div>
                     <div class="col-md-2">
                       <input class="form-control" style="height:30px;">
                     </div>
@@ -947,7 +901,7 @@
                   <div class="col-md-2">
                   </div>
                   <div class="col-md-1">
-                    <input type="radio" name="pay2"> บัตรเครดิตธนาคาร </div>
+                    <input type="checkbox"> บัตรเครดิตธนาคาร </div>
                   <div class="col-md-2">
                     <input class="form-control" style="height:30px;">
                   </div>
@@ -1002,39 +956,78 @@
                     <input class="form-control">
                   </div>
                   <div class="col-md-1"> % </div>
-                </div> 
+                </div>
+                <hr>
+                <div class="row pt-3">
+                    <div class="col-md-2 text-right"> ที่อยู่ในการจัดส่งเอกสาร </div>
+                    <div class="col-md-3"> <input type="checkbox"> ตามบัตรประชาชน </div>
+                  </div>
+                  <div class="row pt-4">
+                    <div class="col-md-2 text-right"> ที่อยู่ เลขที่</div>
+                    <div class="col-md-2">
+                      <input class="form-control">
+                    </div>
+                    <div class="col-md-1 text-right">หมู่</div>
+                    <div class="col-md-1">
+                      <input class="form-control">
+                    </div>
+                    <div class="col-md-1 text-right">ซอย</div>
+                    <div class="col-md-3">
+                      <input class="form-control">
+                    </div>
+                  </div>
+                  <div class="row pt-4">
+                    <div class="col-md-2 text-right">ถนน</div>
+                    <div class="col-md-3">
+                      <input class="form-control">
+                    </div>
+                    <div class="col-md-2 text-right">แขวง/ตำบล</div>
+                    <div class="col-md-3">
+                      <input class="form-control">
+                    </div>
+                  </div>
+                  <div class="row pt-4">
+                    <div class="col-md-2 text-right">เขต/อำเภอ</div>
+                    <div class="col-md-3">
+                      <input class="form-control">
+                    </div>
+                    <div class="col-md-2 text-right">จังหวัด</div>
+                    <div class="col-md-3">
+                      <input class="form-control">
+                    </div>
+                  </div>
+                  <div class="row pt-4">
+                    <div class="col-md-2 text-right"> รหัสไปรษณีย์ </div>
+                    <div class="col-md-3">
+                      <input class="form-control">
+                    </div>
+                  </div>
                 <hr>
                 <div class="row pt-2">
-                  <div class="col-md-2 text-right">ผู้ซื้อจะชำระหมดภายในวันที่</div>
+                  <div class="col-md-2 text-right">ชำระหมดภายในวันที่</div>
                   <div class="col-md-3">
                     <input class="form-control" type="date" value="">
                   </div>
-                </div>
-                <div class="row pt-3">
-                  <div class="col-md-2"></div>
-                  <div class="col-md-8">หากกรณีซื้อเงินสดหรือซื้อเงินผ่อน ผู้ซื้อไม่นำเงินมาชำระให้ภายในวันที่กำหนด ทางผู้ซื้อยินดีชำระเงินมัดจำเพิ่มตามที่บริษัทร้องขอ เพื่อเป็นการต่อสัญญาในจำนวนเงิน 10% ของราคารถและไม่เกิน 5 วัน นับจากวันดังกล่าว สำหรับในกรณีซื้เงินผ่อนผู้ซื้อทำสัญญาไม่ผ่าน เนื่องจากติดเครดิตส่วนกลางโดยไม่ได้แจ้งให้ทราบล่วงหน้า ผู้ซื้อยินดีไม่รับเงินมัดจำที่วางไว้ทั้งสิ้นคืน ทั้งนี้ผู้ซื้อและข้าพเจ้าของรถได้อ่านข้อความเข้าใจดีแล้วและตกลงกันทั้งสองฝ่ายจึงลงลายมือชื่อไว้เป็นสำคัญต่อหน้าพยาน</div>
-                </div>
-                <div class="row pt-2">
                   <div class="col-md-2 text-right">ตัวแทนเจ้าของรถ</div>
                   <div class="col-md-3">
                     <input class="form-control">
                   </div>
+                </div>
+                <div class="row pt-4">
                   <div class="col-md-2 text-right">ผู้ซื้อ</div>
                   <div class="col-md-3">
                     <input class="form-control">
                   </div>
-                </div>
-                <div class="row pt-4">
-                  <div class="col-md-2 text-right"> พยาน </div>
-                  <div class="col-md-3 text-right">
-                    <input class="form-control ">
-                  </div>
                   <div class="col-md-2 text-right"> พยาน </div>
                   <div class="col-md-3 text-right">
                     <input class="form-control ">
                   </div>
                 </div>
                 <div class="row pt-4">
+                  <div class="col-md-2 text-right"> พยาน </div>
+                  <div class="col-md-3 text-right">
+                    <input class="form-control ">
+                  </div>
                   <div class="col-md-2 text-right"> หมายเหตุ </div>
                   <div class="col-md-3">
                     <input class="form-control" style="height:70px;">
@@ -1188,25 +1181,17 @@
                   </div>
                 </div>
                 <hr>
-                <h5>ข้อมูลมอบรถ</h5>
                 <div class="row">
                   <div class="col-md-2 text-right"> ผู้ซื้อชำระเงินโดย </div>
                   <div class="col-md-3">
                     <input class="form-control">
                   </div>
-                </div>
-                <div class="row pt-4">
-                  <div class="col-md-2"></div>
-                  <div class="col-md-8">
-                    ได้รับมอบรถคันดังกล่าวไปเรียบร้อยแล้วและอยู่ในสภาพที่สมบูรณ์ทุกประการหากเกิดความเสียหายกับรถยนต์ไม่ส่ากรณีใดก็ตาม หรือคดีความที่เกิดขึ้นภายหลังจากผู้ซื้อรับรถยนต์ไปแล้วผู้ซื้อยินยอมรับชดใช้เองทั้งสิ้น
-                  </div>
-                </div>
-                <div class="row pt-3">
                   <div class="col-md-2 text-right">วันที่</div>
                   <div class="col-md-3">
                     <input class="form-control" type="date" value="">
                   </div>
-
+                </div>
+                <div class="row pt-3">
                   <div class="col-md-2 text-right"> เวลา </div>
                   <div class="col-md-2">
                     <input class="form-control" type="time">
