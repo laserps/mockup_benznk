@@ -95,6 +95,11 @@ var menu = [
 			name: 'ฟอร์มเพิ่มรายการ / โบวชัวร์',
 			link: 'add_brochure.html',
 			sub: null
+		},
+		{
+			name: 'ฟอร์มเพิ่ม Special option',
+			link: 'add_specialoption.html',
+			sub: null
 		}
 		]
 	},
@@ -118,8 +123,13 @@ var menu = [
 			submenu: null
 		},
 		{
-			name: 'ฟอร์มสัญญามัดจำ',
+			name: 'ฟอร์มสัญญามัดจำส่วนแรก',
 			link: 'add_sale_contract2.html',
+			submenu: null
+		},
+		{
+			name: 'ฟอร์มสัญญามัดจำทั้งหมด',
+			link: 'add_sale_contract3.html',
 			submenu: null
 		},
 		{
@@ -152,6 +162,11 @@ var menu = [
 			name: 'ฟอร์มใบส่งซ่อม',
 			link: 'add_repair.html',
 			sub: null
+		},
+		{
+			name: 'ดูรายการส่งซ่อม',
+			link: 'view_repair.html',
+			sub: null
 		}
 		]
 	},
@@ -181,7 +196,7 @@ var menu = [
         link: '',
         icon: 'ti-agenda',
 		submenu : [{
-			name: 'แบรนด์',
+			name: 'ยี่ห้อรถยนต์',
 	        link: 'brand.html',
 	        submenu: null
 		},
@@ -189,6 +204,16 @@ var menu = [
 			name: 'รุ่น',
 	        link: 'model.html',
 	        submenu: null
+		},
+		{
+			name: 'โฉม',
+    		link: 'look.html',
+    		submenu: null
+		},
+		{
+			name: 'ชุดแต่ง',
+			link: 'make.html',
+			submenu: null
 		},
 		{
 			name: 'สีรถ',
@@ -213,6 +238,11 @@ var menu = [
 		{
 			name: 'ประเภทของรถ',
     		link: 'type.html',
+    		submenu: null
+		},
+		{
+			name: 'ธนาคาร',
+    		link: 'bank.html',
     		submenu: null
 		},
 		{

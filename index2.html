@@ -128,7 +128,7 @@
             <div class="content">
               <div class="row">
                 <div class="col-md-6">
-                  <p class="lead">อนุมัติค่าคอมมิชชั่น<br></p>
+                  <p class="lead">อนุมัติใบรับเข้า<br></p>
                 </div>
               </div>
               <hr>
@@ -144,7 +144,7 @@
                 </div>
               </div>
               <div class="row pt-3">
-                <div class="col-md-3 text-right">ชื่อผู้ขายรถยนต์</div>
+                <div class="col-md-3 text-right">ชื่อผู้ซื้อ/ผู้รับรถ</div>
                 <div class="col-md-2">
                   <select type="" name="" class="form-control"></select>
                 </div>
@@ -187,20 +187,23 @@
                         <tr>
                           <th><input type="checkbox"></th>
                           <th>ลำดับ</th>
-                          <th>วันที่ขายได้</th>
-                          <th>ชื่อผู้ขายรถยนต์</th>
-                          <th>โทรศัพท์มือถือ</th>
+                          <th>วันที่รับรถ</th>
+                          <th>ชื่อผู้ซื้อ/ผู้รับรถ</th>
+                          <th>ชื่อผู้ทำสัญญา</th>
                           <th>ยี่ห้อรถยนต์</th>
                           <th>รุ่น</th>
-                          <th>อุปรกรณ์</th>
-                          <th>สี</th>
+                          <th>โฉม</th>
+                          <th>ชุดแต่ง</th>
+                          <th>สีรถ</th>
+                          <th>สีเบาะ</th>
                           <th>ปี</th>
                           <th>หมายเลขทะเบียน</th>
-                          <th>จังหวัด</th>
-                          <th>หมายเลขตัวรถ</th>
-                          <th>หมายเลขเครื่อง</th>
+                          <th>เลขตัวถัง</th>
+                          <th>เลขเครื่องยนต์</th>
+                          <th>เลขไมล์</th>
                           <th>จำนวนเงินทั้งหมด</th>
                           <th>สถานะ</th>
+                          <th>ปรับสถานะ</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -209,72 +212,100 @@
                           <td>1</td>
                           <td>01/01/2562</td>
                           <td>นายชลนธี ศรีสุวรรณ</td>
-                          <td>090-0000000</td>
-                          <td>Benz</td>
-                          <td>E200</td>
-                          <td>Spoiler</td>
-                          <td>ดำ</td>
+                          <td>นายชลนธี โชคดี</td>
+                          <td>Mecredes Benz</td>
+                          <td>Sport Sedan</td>
+                          <td>B-Class</td>
+                          <td>B-350 AMG</td>
+                          <td>สีขาวมุก</td>
+                          <td>สีแดง</td>
                           <td>2014</td>
                           <td>สว4545</td>
-                          <td>กรุงเทพ</td>
-                          <td>MRHFD1640AP103716</td>
-                          <td>R18A1AP14491</td>
-                          <td>800,000</td>
+                          <td>WDD2211712A088582</td>
+                          <td>27396130075861</td>
+                          <td>100,000 กม.</td>
+                          <td>800,000.00 บาท</td>
                           <td><small class="badge badge-warning">ยังไม่อนุมัติ</small></td>
+                          <td><select name="" id="" class="form-control">
+                              <option value="">เลือกปรับสถานะ</option>
+                              <option value="">อนุมัติ</option>
+                              <option value="">ไม่อนุมัติ</option>
+                            </select></td>
                         </tr>
                         <tr class="bg_unread">
                           <td><input type="checkbox"></td>
                           <td>2</td>
-                          <td>02/01/2562</td>
-                          <td>นายต่อพงษ์ วงศ์พานิช</td>
-                          <td>090-4567895</td>
-                          <td>Benz</td>
-                          <td>E300</td>
-                          <td>Spoiler</td>
-                          <td>แดง</td>
-                          <td>2013</td>
-                          <td>กด1212</td>
-                          <td>ชลบุรี</td>
-                          <td>MRHFD1640AP103716</td>
-                          <td>R18A1AP14491</td>
-                          <td>700,000</td>
+                          <td>01/01/2562</td>
+                          <td>นายชลนธี ศรีสุวรรณ</td>
+                          <td>นายชลนธี โชคดี</td>
+                          <td>Mecredes Benz</td>
+                          <td>Sport Sedan</td>
+                          <td>B-Class</td>
+                          <td>B-350 AMG</td>
+                          <td>สีขาวมุก</td>
+                          <td>สีแดง</td>
+                          <td>2014</td>
+                          <td>สว4545</td>
+                          <td>WDD2211712A088582</td>
+                          <td>27396130075861</td>
+                          <td>100,000 กม.</td>
+                          <td>800,000.00 บาท</td>
                           <td><small class="badge badge-warning">ยังไม่อนุมัติ</small></td>
+                          <td><select name="" id="" class="form-control">
+                              <option value="">เลือกปรับสถานะ</option>
+                              <option value="">อนุมัติ</option>
+                              <option value="">ไม่อนุมัติ</option>
+                            </select></td>
                         </tr>
                         <tr style="background: #ededed;">
                           <td><input type="checkbox"></td>
                           <td>3</td>
-                          <td>02/01/2562</td>
-                          <td> นายสนั่น รักขุมแก้ว </td>
-                          <td>099-8595658</td>
-                          <td>Benz </td>
-                          <td>A180</td>
-                          <td>Spoiler</td>
-                          <td>ดำ</td>
+                          <td>01/01/2562</td>
+                          <td>นายชลนธี ศรีสุวรรณ</td>
+                          <td>นายชลนธี โชคดี</td>
+                          <td>Mecredes Benz</td>
+                          <td>Sport Sedan</td>
+                          <td>B-Class</td>
+                          <td>B-350 AMG</td>
+                          <td>สีขาวมุก</td>
+                          <td>สีแดง</td>
                           <td>2014</td>
-                          <td>พว4785</td>
-                          <td>ชลบุรี</td>
-                          <td>MRHFD1640AP103716</td>
-                          <td>R18A1AP14491</td>
-                          <td>900,000</td>
-                          <td><small class="badge badge-success">อนุมัติแล้ว</small></td>
+                          <td>สว4545</td>
+                          <td>WDD2211712A088582</td>
+                          <td>27396130075861</td>
+                          <td>100,000 กม.</td>
+                          <td>800,000.00 บาท</td>
+                          <td><small class="badge badge-warning">ยังไม่อนุมัติ</small></td>
+                          <td><select name="" id="" class="form-control">
+                              <option value="">เลือกปรับสถานะ</option>
+                              <option value="">อนุมัติ</option>
+                              <option value="">ไม่อนุมัติ</option>
+                            </select></td>
                         </tr>
                         <tr style="background: #ededed;">
                           <td><input type="checkbox"></td>
                           <td>4</td>
-                          <td>04/01/2562</td>
-                          <td>นางสาวน้ำผึ้ง เหนียวแก้ว </td>
-                          <td>099-8565225</td>
-                          <td>Benz</td>
-                          <td>C200</td>
-                          <td>Spoiler</td>
-                          <td>ขาว</td>
-                          <td>2013</td>
-                          <td>วล1125</td>
-                          <td>กรุงเทพ</td>
-                          <td>MRHFD1640AP103716</td>
-                          <td>R18A1AP14491</td>
-                          <td>500,000</td>
-                          <td><small class="badge badge-success">อนุมัติแล้ว</small></td>
+                          <td>01/01/2562</td>
+                          <td>นายชลนธี ศรีสุวรรณ</td>
+                          <td>นายชลนธี โชคดี</td>
+                          <td>Mecredes Benz</td>
+                          <td>Sport Sedan</td>
+                          <td>B-Class</td>
+                          <td>B-350 AMG</td>
+                          <td>สีขาวมุก</td>
+                          <td>สีแดง</td>
+                          <td>2014</td>
+                          <td>สว4545</td>
+                          <td>WDD2211712A088582</td>
+                          <td>27396130075861</td>
+                          <td>100,000 กม.</td>
+                          <td>800,000.00 บาท</td>
+                          <td><small class="badge badge-warning">ยังไม่อนุมัติ</small></td>
+                          <td><select name="" id="" class="form-control">
+                              <option value="">เลือกปรับสถานะ</option>
+                              <option value="">อนุมัติ</option>
+                              <option value="">ไม่อนุมัติ</option>
+                            </select></td>
                         </tr>
                         <tr></tr>
                         <tr></tr>
@@ -287,6 +318,252 @@
                         </tr>
                       </tfoot>
                     </table>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-1 text-right">
+                    ปรับสถานะ
+                  </div>
+                  <div class="col-md-2">
+                    <select name="" id="" class="form-control">
+                      <option value="">เลือกปรับสถานะ</option>
+                      <option value="">อนุมัติ</option>
+                      <option value="">ไม่อนุมัติ</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-5">
+                    <div class="dataTables_info" id="datatables_info" role="status" aria-live="polite">Showing 1 to 10
+                      of 40 entries</div>
+                  </div>
+                  <div class="col-sm-12 col-md-7">
+                    <div class="dataTables_paginate paging_full_numbers pull-right" id="datatables_paginate">
+                      <ul class="pagination">
+                        <li class="paginate_button page-item first disabled" id="datatables_first">
+                          <a href="#" aria-controls="datatables" data-dt-idx="0" tabindex="0"
+                            class="page-link">First</a>
+                        </li>
+                        <li class="paginate_button page-item previous disabled" id="datatables_previous">
+                          <a href="#" aria-controls="datatables" data-dt-idx="1" tabindex="0"
+                            class="page-link">Previous</a>
+                        </li>
+                        <li class="paginate_button page-item active">
+                          <a href="#" aria-controls="datatables" data-dt-idx="2" tabindex="0" class="page-link">1</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="3" tabindex="0" class="page-link">2</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="4" tabindex="0" class="page-link">3</a>
+                        </li>
+                        <li class="paginate_button page-item ">
+                          <a href="#" aria-controls="datatables" data-dt-idx="5" tabindex="0" class="page-link">4</a>
+                        </li>
+                        <li class="paginate_button page-item next" id="datatables_next">
+                          <a href="#" aria-controls="datatables" data-dt-idx="6" tabindex="0" class="page-link">Next</a>
+                        </li>
+                        <li class="paginate_button page-item last" id="datatables_last">
+                          <a href="#" aria-controls="datatables" data-dt-idx="7" tabindex="0" class="page-link">Last</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="content">
+              <div class="row">
+                <div class="col-md-6">
+                  <p class="lead">อนุมัติใบส่งซ่อม<br></p>
+                </div>
+              </div>
+              <hr>
+              <br>
+              <div class="row">
+                <div class="col-md-3 text-right">วันที่เริ่มต้น</div>
+                <div class="col-md-2">
+                  <input type="date" name="" class="form-control">
+                </div>
+                <div class="col-md-2 text-right">วันที่สิ้นสุด</div>
+                <div class="col-md-2">
+                  <input type="date" name="" class="form-control">
+                </div>
+              </div>
+              <div class="row pt-3">
+                <div class="col-md-3 text-right">ชื่อลูกค้า</div>
+                <div class="col-md-2">
+                  <select type="" name="" class="form-control"></select>
+                </div>
+                <div class="col-md-2 text-right">รุ่น</div>
+                <div class="col-md-2">
+                  <select type="" name="" class="form-control"></select>
+                </div>
+              </div>
+              <br>
+              <div id="datatables_wrapper" class="dataTables_wrapper container-fluid dt-bootstrap4">
+                <div class="row">
+                  <div class=" col-md-6">
+                    <div class="dataTables_length" id="datatables_length">
+                      <label class="form-group">Show <select name="datatables_length" aria-controls="datatables"
+                          class="form-control input-sm">
+                          <option value="10">10</option>
+                          <option value="25">25</option>
+                          <option value="50">50</option>
+                          <option value="-1">All</option>
+                        </select> entries</label>
+                    </div>
+                  </div>
+                  <div class="col col-md-6">
+                    <div id="datatables_filter" class="dataTables_filter">
+                      <label class="form-group">
+                        <input type="search" class="form-control input-sm" placeholder="Search records"
+                          aria-controls="datatables"> </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="row pt-2">
+                  <div class="1">
+                    <a class="btn btn-info btn-xs">อ่านแล้วทั้งหมด</a>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th><input type="checkbox"></th>
+                          <th>ลำดับ</th>
+                          <th>วันที่ส่งซ่อม</th>
+                          <th>เลขที่ใบส่งซ่อม</th>
+                          <th>ชื่อลูกค้า</th>
+                          <th>ยี่ห้อรถยนต์</th>
+                          <th>รุ่น</th>
+                          <th>โฉม</th>
+                          <th>ชุดแต่ง</th>
+                          <th>สีรถ</th>
+                          <th>สีเบาะ</th>
+                          <th>ปี</th>
+                          <th>หมายเลขทะเบียน</th>
+                          <th>เลขตัวถัง</th>
+                          <th>เลขเครื่องยนต์</th>
+                          <th>ปรับสถานะ</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="bg_unread">
+                          <td><input type="checkbox"></td>
+                          <td>1</td>
+                          <td>01/01/2562</td>
+                          <td>1303001</td>
+                          <td>นายชลนธี โชคดี</td>
+                          <td>Mecredes Benz</td>
+                          <td>Sport Sedan</td>
+                          <td>B-Class</td>
+                          <td>B-350 AMG</td>
+                          <td>สีขาวมุก</td>
+                          <td>สีแดง</td>
+                          <td>2014</td>
+                          <td>สว4545</td>
+                          <td>WDD2211712A088582</td>
+                          <td>27396130075861</td>
+                          <td><select name="" id="" class="form-control">
+                              <option value="">เลือกปรับสถานะ</option>
+                              <option value="">อนุมัติ</option>
+                              <option value="">ไม่อนุมัติ</option>
+                            </select></td>
+                        </tr>
+                        <tr class="bg_unread">
+                          <td><input type="checkbox"></td>
+                          <td>2</td>
+                          <td>01/01/2562</td>
+                          <td>1303001</td>
+                          <td>นายชลนธี โชคดี</td>
+                          <td>Mecredes Benz</td>
+                          <td>Sport Sedan</td>
+                          <td>B-Class</td>
+                          <td>B-350 AMG</td>
+                          <td>สีขาวมุก</td>
+                          <td>สีแดง</td>
+                          <td>2014</td>
+                          <td>สว4545</td>
+                          <td>WDD2211712A088582</td>
+                          <td>27396130075861</td>
+                          <td><select name="" id="" class="form-control">
+                              <option value="">เลือกปรับสถานะ</option>
+                              <option value="">อนุมัติ</option>
+                              <option value="">ไม่อนุมัติ</option>
+                            </select></td>
+                        </tr>
+                        <tr style="background: #ededed;">
+                          <td><input type="checkbox"></td>
+                          <td>3</td>
+                          <td>01/01/2562</td>
+                          <td>1303001</td>
+                          <td>นายชลนธี โชคดี</td>
+                          <td>Mecredes Benz</td>
+                          <td>Sport Sedan</td>
+                          <td>B-Class</td>
+                          <td>B-350 AMG</td>
+                          <td>สีขาวมุก</td>
+                          <td>สีแดง</td>
+                          <td>2014</td>
+                          <td>สว4545</td>
+                          <td>WDD2211712A088582</td>
+                          <td>27396130075861</td>
+                          <td><select name="" id="" class="form-control">
+                              <option value="">เลือกปรับสถานะ</option>
+                              <option value="">อนุมัติ</option>
+                              <option value="">ไม่อนุมัติ</option>
+                            </select></td>
+                        </tr>
+                        <tr style="background: #ededed;">
+                          <td><input type="checkbox"></td>
+                          <td>4</td>
+                          <td>01/01/2562</td>
+                          <td>1303001</td>
+                          <td>นายชลนธี โชคดี</td>
+                          <td>Mecredes Benz</td>
+                          <td>Sport Sedan</td>
+                          <td>B-Class</td>
+                          <td>B-350 AMG</td>
+                          <td>สีขาวมุก</td>
+                          <td>สีแดง</td>
+                          <td>2014</td>
+                          <td>สว4545</td>
+                          <td>WDD2211712A088582</td>
+                          <td>27396130075861</td>
+                          <td><select name="" id="" class="form-control">
+                              <option value="">เลือกปรับสถานะ</option>
+                              <option value="">อนุมัติ</option>
+                              <option value="">ไม่อนุมัติ</option>
+                            </select></td>
+                        </tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                        <tr></tr>
+                      </tbody>
+                      <tfoot>
+                        <tr>
+                          <td colspan="23"></td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-1 text-right">
+                    ปรับสถานะ
+                  </div>
+                  <div class="col-md-2">
+                    <select name="" id="" class="form-control">
+                      <option value="">เลือกปรับสถานะ</option>
+                      <option value="">อนุมัติ</option>
+                      <option value="">ไม่อนุมัติ</option>
+                    </select>
                   </div>
                 </div>
                 <div class="row">
