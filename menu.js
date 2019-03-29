@@ -123,13 +123,8 @@ var menu = [
 			submenu: null
 		},
 		{
-			name: 'ฟอร์มสัญญามัดจำส่วนแรก',
+			name: 'ฟอร์มสัญญามัดจำ',
 			link: 'add_sale_contract2.html',
-			submenu: null
-		},
-		{
-			name: 'ฟอร์มสัญญามัดจำทั้งหมด',
-			link: 'add_sale_contract3.html',
 			submenu: null
 		},
 		{
@@ -223,6 +218,11 @@ var menu = [
 		{
 			name: 'สีเบาะ',
 			link: 'color_pad.html',
+			submenu: null
+		},
+		{
+			name: 'ชื่อสี',
+			link: 'mastercolor.html',
 			submenu: null
 		},
 		{
